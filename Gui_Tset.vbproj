@@ -90,7 +90,8 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>mark 2.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BasicDemo_VB.resources, Version=1.0.0.0, Culture=en-US, processorArchitecture=x86">
@@ -762,7 +763,6 @@
     <None Include="Resources\icons8-rotate-right-64.png" />
     <None Include="Resources\icons8-rotate-left-64.png" />
     <None Include="Resources\mark 2.PNG" />
-    <Content Include="mark 2.ico" />
     <Content Include="USER MANAGMENT\userlogin11.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
