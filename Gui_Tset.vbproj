@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF38418B-C1F4-4968-9211-2FF3E44890DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gui_Tset.My.MyApplication</StartupObject>
+    <RootNamespace>Gui_Tset</RootNamespace>
+    <AssemblyName>Gui_Tset</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\New folder %282%29\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <UpdateUrl>http://localhost/Gui_Tset/</UpdateUrl>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gui_Tset.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gui_Tset.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3B0634F14AAEBCB00EB16055579BFF2AA777C819</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Gui_Tset_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mark 2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicDemo_VB.resources, Version=1.0.0.0, Culture=en-US, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BasicDemo_VB.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV, Version=4.9.0.5494, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>packages\Emgu.CV.4.9.0.5494\lib\netstandard2.0\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Core, Version=1.5.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.Core.1.5.4\lib\net46\EPPlus.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MvCamCtrl.Net, Version=0.0.0.0, Culture=neutral, PublicKeyToken=01e3fc1d84d12cbf, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MvCamCtrl.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="My Project.Resources.Designer.vb">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MVS\Development\Samples\VB\VBDotNet\MultipleDemo\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Primitives.4.3.0\lib\net45\System.Drawing.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.8.0.1\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HOME\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HOME\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Alarms.Designer.vb">
+      <DependentUpon>Alarms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Alarms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\alarmval.Designer.vb">
+      <DependentUpon>alarmval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\alarmval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASS\Class1.vb" />
+    <Compile Include="MAINTENANCE\Communication.Designer.vb">
+      <DependentUpon>Communication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Communication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER MANAGMENT\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PROGRAMING\Fiducial2.vb" />
+    <Compile Include="PROGRAMING\FiducialData.vb" />
+    <Compile Include="PROGRAMING\FiduicalOpertions.vb" />
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\IO.Designer.vb">
+      <DependentUpon>IO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\IO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASS\LoadRecipeD.vb" />
+    <Compile Include="USER MANAGMENT\Log.Designer.vb">
+      <DependentUpon>Log.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\Log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Cycle.Designer.vb">
+      <DependentUpon>Cycle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Cycle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROGRAMING\Fiducial.Designer.vb">
+      <DependentUpon>Fiducial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROGRAMING\Fiducial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Page.Designer.vb">
+      <DependentUpon>Home_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Location.Designer.vb">
+      <DependentUpon>Location.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Location.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Maintenance.Designer.vb">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="CLASS\ModuleRec.vb" />
+    <Compile Include="CLASS\MVCamera.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="USER MANAGMENT\New_user.Designer.vb">
+      <DependentUpon>New_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\New_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operations.Designer.vb">
+      <DependentUpon>Operations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Operations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel.Designer.vb">
+      <DependentUpon>Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASS\Paneldata.vb" />
+    <Compile Include="MAINTENANCE\Position.Designer.vb">
+      <DependentUpon>Position.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Position.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROGRAMING\Programing.Designer.vb">
+      <DependentUpon>Programing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROGRAMING\Programing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASS\RecepieOperation.vb" />
+    <Compile Include="PROGRAMING\Recipe.Designer.vb">
+      <DependentUpon>Recipe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROGRAMING\Recipe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER MANAGMENT\registration2.Designer.vb">
+      <DependentUpon>registration2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\registration2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Servo.Designer.vb">
+      <DependentUpon>Servo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Servo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPCModuleForm.Designer.vb">
+      <DependentUpon>SPCModuleForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPCModuleForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER MANAGMENT\User.Designer.vb">
+      <DependentUpon>User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER MANAGMENT\useraccessDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>useraccessDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\UserAcess.Designer.vb">
+      <DependentUpon>UserAcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\UserAcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER MANAGMENT\userlogin2.Designer.vb">
+      <DependentUpon>userlogin2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER MANAGMENT\userlogin2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\X.Designer.vb">
+      <DependentUpon>X.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\X.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Xm.Designer.vb">
+      <DependentUpon>Xm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Xm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Y.Designer.vb">
+      <DependentUpon>Y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINTENANCE\Ym.Designer.vb">
+      <DependentUpon>Ym.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAINTENANCE\Ym.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HOME\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Alarms.resx">
+      <DependentUpon>Alarms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\alarmval.resx">
+      <DependentUpon>alarmval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Communication.resx">
+      <DependentUpon>Communication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Cycle.resx">
+      <DependentUpon>Cycle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROGRAMING\Fiducial.resx">
+      <DependentUpon>Fiducial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Page.resx">
+      <DependentUpon>Home_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\IO.resx">
+      <DependentUpon>IO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Location.resx">
+      <DependentUpon>Location.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\Log.resx">
+      <DependentUpon>Log.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Maintenance.resx">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\New_user.resx">
+      <DependentUpon>New_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations.resx">
+      <DependentUpon>Operations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel.resx">
+      <DependentUpon>Panel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Position.resx">
+      <DependentUpon>Position.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROGRAMING\Programing.resx">
+      <DependentUpon>Programing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROGRAMING\Recipe.resx">
+      <DependentUpon>Recipe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\registration2.resx">
+      <DependentUpon>registration2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Servo.resx">
+      <DependentUpon>Servo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPCModuleForm.resx">
+      <DependentUpon>SPCModuleForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\User.resx">
+      <DependentUpon>User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\UserAcess.resx">
+      <DependentUpon>UserAcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER MANAGMENT\userlogin2.resx">
+      <DependentUpon>userlogin2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\X.resx">
+      <DependentUpon>X.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Xm.resx">
+      <DependentUpon>Xm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Y.resx">
+      <DependentUpon>Y.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAINTENANCE\Ym.resx">
+      <DependentUpon>Ym.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="USER MANAGMENT\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="USER MANAGMENT\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="USER MANAGMENT\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="USER MANAGMENT\DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="USER MANAGMENT\DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="USER MANAGMENT\DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gui_Tset_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\png" />
+    <None Include="USER MANAGMENT\useraccessDataSet.xsc">
+      <DependentUpon>useraccessDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="USER MANAGMENT\useraccessDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>useraccessDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USER MANAGMENT\useraccessDataSet.xss">
+      <DependentUpon>useraccessDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lm update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chevron-down-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chevron-up-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sort-down-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-up-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-left-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-arrow-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-07 114333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-07 114719.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-07 1143331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ActUtlTypeLib">
+      <Guid>{D217E54E-4A26-4A76-B0AB-57166B90F9AF}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.NetCore.DesktopRuntime.5.0.x86">
+      <Visible>False</Visible>
+      <ProductName>.NET Desktop Runtime 5.0.17 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiducials-graphics-a248b1377f150b23a87d09042b5fdc30f9da3cccf322e5fdb6d90aac970a1d901.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Emgu.CV">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Gui_Tset.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Gui_Tset.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Bcl.AsyncInterfaces.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Buffers.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Memory.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Numerics.Vectors.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Runtime.CompilerServices.Unsafe.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Text.Encodings.Web.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Text.Json.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Threading.Tasks.Extensions.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="System.ValueTuple.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-64.png" />
+    <None Include="Resources\icons8-rotate-right-64.png" />
+    <None Include="Resources\icons8-rotate-left-64.png" />
+    <None Include="Resources\mark 2.PNG" />
+    <Content Include="mark 2.ico" />
+    <Content Include="USER MANAGMENT\userlogin11.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
