@@ -3859,7 +3859,7 @@ Public Class Recipe
     Private Sub PictureBox7_MouseUp(sender As Object, e As MouseEventArgs) Handles PictureBox7.MouseUp
 
         If isDrawing Then
-            ' Check the maximum current ID from the DataGridView
+            ' Check the maximu current ID from the DataGridView
             'Dim maxCurrentID As Integer = GetMaxCurrentID()
             'If maxCurrentID >= currentID Then
             '    currentID = maxCurrentID + 1
