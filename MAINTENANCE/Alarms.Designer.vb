@@ -110,6 +110,7 @@ Partial Class Alarms
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Alarms"
         Me.ShowInTaskbar = False
+        Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)

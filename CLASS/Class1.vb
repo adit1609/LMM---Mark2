@@ -1,17 +1,17 @@
 ﻿Public Class Alarm
-    Public Property Number As Integer
+    Public Property Number As String
     Public Property Name As String
     Public Shared Property Alarms As List(Of Alarm) = New List(Of Alarm)
 
     ' Constructor to initialize an individual alarm
-    Public Sub New(alarmNumber As Integer, alarmName As String)
+    Public Sub New(alarmNumber As String, alarmName As String)
         Me.Number = alarmNumber
         Me.Name = alarmName
     End Sub
 
     ' Method to populate the list with alarms
     Public Shared Sub InitializeAlarms()
-        Alarms.Add(New Alarm(1, "EMERGENCY STOP"))
+        Alarms.Add(New Alarm("01AB", "EMERGENCY STOP"))
         Alarms.Add(New Alarm(2, "X AXIS SERVO ALARM"))
         Alarms.Add(New Alarm(3, "Y AXIS SERVO ALARM"))
         Alarms.Add(New Alarm(4, "Z AXIS SERVO ALARM"))

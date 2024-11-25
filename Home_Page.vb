@@ -14,9 +14,9 @@ Imports OfficeOpenXml
 
 
 Public Class Home_Page
-    Dim dval As Integer
-    Dim prevDval As Integer = 0
-    Public Checkagain As Integer = 0
+    Dim dval As String
+    Dim prevDval As String = "0000"
+    Public Checkagain As String = "0000"
     Private alarmForm As Alarms = Nothing
     Dim plc As New ActUtlType
     Dim check As Integer
@@ -262,255 +262,7 @@ Public Class Home_Page
         ' LiveCamConnect()
     End Sub
 
-    'Private Sub FidCamConnect()
-    '    Dim nRet As Int32 = CCamera.MV_OK
-    '    Dim stDeviceInfoList As CCamera.MV_CC_DEVICE_INFO_LIST = New CCamera.MV_CC_DEVICE_INFO_LIST
 
-    '    fidcheck = False
-    '    ' ch:枚举设备 | en:Enum device
-    '    nRet = CCamera.EnumDevices((CCamera.MV_GIGE_DEVICE), stDeviceInfoList)
-    '    If CCamera.MV_OK <> nRet Then
-    '        Console.WriteLine("Enum Device failed:{0:x8}", nRet)
-
-    '    End If
-
-    '    If (0 = stDeviceInfoList.nDeviceNum) Then
-    '        Console.WriteLine("No Find Gige | Usb Device !")
-
-    '    End If
-
-    '    '  ch:打印设备信息 | en:Print device info
-    '    Dim i As Int32
-    '    For i = 0 To stDeviceInfoList.nDeviceNum - 1
-    '        Dim stDeviceInfo As CCamera.MV_CC_DEVICE_INFO = New CCamera.MV_CC_DEVICE_INFO
-    '        stDeviceInfo = CType(Marshal.PtrToStructure(stDeviceInfoList.pDeviceInfo(i), GetType(CCamera.MV_CC_DEVICE_INFO)), CCamera.MV_CC_DEVICE_INFO)
-    '        If (CCamera.MV_GIGE_DEVICE = stDeviceInfo.nTLayerType) Then
-    '            Dim stGigeInfoPtr As IntPtr = Marshal.AllocHGlobal(216)
-    '            Marshal.Copy(stDeviceInfo.stSpecialInfo.stGigEInfo, 0, stGigeInfoPtr, 216)
-    '            Dim stGigeInfo As CCamera.MV_GIGE_DEVICE_INFO
-    '            stGigeInfo = CType(Marshal.PtrToStructure(stGigeInfoPtr, GetType(CCamera.MV_GIGE_DEVICE_INFO)), CCamera.MV_GIGE_DEVICE_INFO)
-    '            Dim nIpByte1 As UInt32 = (stGigeInfo.nCurrentIp And &HFF000000) >> 24
-    '            Dim nIpByte2 As UInt32 = (stGigeInfo.nCurrentIp And &HFF0000) >> 16
-    '            Dim nIpByte3 As UInt32 = (stGigeInfo.nCurrentIp And &HFF00) >> 8
-    '            Dim nIpByte4 As UInt32 = (stGigeInfo.nCurrentIp And &HFF)
-
-
-    '            If (nIpByte4 = 51) Then
-
-    '                nRet = FidCam1.CreateDevice(stDeviceInfo)
-    '                FidCam1.CloseDevice()
-    '                FidCam1.DestroyDevice()
-    '                nRet = FidCam1.CreateDevice(stDeviceInfo)
-    '                If CCamera.MV_OK <> nRet Then
-    '                    MsgBox("Fail to create handle")
-    '                    fidcheck = True
-    '                    Return
-    '                End If
-
-    '                nRet = FidCam1.OpenDevice()
-    '                If CCamera.MV_OK <> nRet Then
-    '                    FidCam1.DestroyDevice()
-
-    '                    MsgBox("Open device failed")
-    '                    fidcheck = True
-    '                    Return
-    '                End If
-    '                If stDeviceInfo.nTLayerType = CCamera.MV_GIGE_DEVICE Then
-    '                    Dim nPacketSize As Int32
-    '                    nPacketSize = FidCam1.GIGE_GetOptimalPacketSize()
-    '                    If nPacketSize > 0 Then
-    '                        nRet = FidCam1.SetIntValueEx("GevSCPSPacketSize", nPacketSize)
-    '                        If 0 <> nRet Then
-    '                            MsgBox("Set Packet Size failed")
-    '                        End If
-    '                    Else
-    '                        MsgBox("Get Packet Size failed")
-    '                    End If
-    '                End If
-    '                'FidCam1.SetGrabStrategy(1)
-    '                Dim stTriggerMode As CCamera.MVCC_ENUMVALUE = New CCamera.MVCC_ENUMVALUE
-
-    '                nRet = FidCam1.SetEnumValue("TriggerSource", CCamera.MV_CAM_TRIGGER_SOURCE.MV_TRIGGER_SOURCE_SOFTWARE)
-    '                nRet = FidCam1.SetEnumValue("TriggerMode", CCamera.MV_CAM_TRIGGER_MODE.MV_TRIGGER_MODE_ON)
-
-
-    '                nRet = FidCam1.GetEnumValue("TriggerMode", stTriggerMode)
-    '                If CCamera.MV_OK <> nRet Then
-    '                    MsgBox("Fail to acquire trigger mode")
-    '                    Return
-    '                End If
-
-
-
-
-    '                Dim stExposureTime As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                Dim fExposureTime As Single
-    '                fExposureTime = 5000.0
-    '                nRet = FidCam1.SetFloatValue("ExposureTime", fExposureTime)
-
-    '                If CCamera.MV_OK <> nRet Then
-    '                    MsgBox("Fail to acquire exposure time")
-    '                End If
-
-    '                'Dim stGain As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                'nRet = FidCam1.SetFloatValue("Gain", 5)
-    '                'If CCamera.MV_OK <> nRet Then
-    '                'MsgBox("Fail to acquire gain")
-    '                'End If
-
-    '                'Dim stFrameRate As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                'FidCam1.SetBoolValue("AcquisitionFrameRateEnable", True)
-    '                'nRet = FidCam1.SetFloatValue("AcquisitionFrameRate", 56)
-    '                'nRet = FidCam1.SetFloatValue("ResultingFrameRate", 56)
-    '                'If CCamera.MV_OK <> nRet Then
-    '                'M 'sgBox("Fail to acquire frame rate")
-    '                'End If
-
-
-    '            End If
-    '        Else
-    '            Dim stUsbInfoPtr As IntPtr = Marshal.AllocHGlobal(540)
-    '            Marshal.Copy(stDeviceInfo.stSpecialInfo.stUsb3VInfo, 0, stUsbInfoPtr, 540)
-    '            Dim stUsbInfo As CCamera.MV_USB3_DEVICE_INFO
-    '            stUsbInfo = CType(Marshal.PtrToStructure(stUsbInfoPtr, GetType(CCamera.MV_USB3_DEVICE_INFO)), CCamera.MV_USB3_DEVICE_INFO)
-
-    '            Console.WriteLine("[Dev " + Convert.ToString(i) + "]:")
-    '            Console.WriteLine("SerialNumber:" + stUsbInfo.chSerialNumber)
-    '            Console.WriteLine("UserDefinedName:" + stUsbInfo.chUserDefinedName)
-    '            Console.WriteLine("")
-    '        End If
-    '    Next
-
-
-
-
-
-
-
-    '    Threading.Thread.Sleep(5)
-
-
-    '    nRet = FidCam1.StartGrabbing()
-    'End Sub
-    'Private Sub LiveCamConnect()
-    '    Dim nRet As Int32 = CCamera.MV_OK
-    '    Dim stDeviceInfoList As CCamera.MV_CC_DEVICE_INFO_LIST = New CCamera.MV_CC_DEVICE_INFO_LIST
-
-    '    livecheck = False
-    '    ' ch:枚举设备 | en:Enum device
-    '    nRet = CCamera.EnumDevices((CCamera.MV_GIGE_DEVICE), stDeviceInfoList)
-    '    If CCamera.MV_OK <> nRet Then
-    '        Console.WriteLine("Enum Device failed:{0:x8}", nRet)
-
-    '    End If
-
-    '    If (0 = stDeviceInfoList.nDeviceNum) Then
-    '        Console.WriteLine("No Find Gige | Usb Device !")
-
-    '    End If
-
-    '    '  ch:打印设备信息 | en:Print device info
-    '    Dim i As Int32
-    '    For i = 0 To stDeviceInfoList.nDeviceNum - 1
-    '        Dim stDeviceInfo As CCamera.MV_CC_DEVICE_INFO = New CCamera.MV_CC_DEVICE_INFO
-    '        stDeviceInfo = CType(Marshal.PtrToStructure(stDeviceInfoList.pDeviceInfo(i), GetType(CCamera.MV_CC_DEVICE_INFO)), CCamera.MV_CC_DEVICE_INFO)
-    '        If (CCamera.MV_GIGE_DEVICE = stDeviceInfo.nTLayerType) Then
-    '            Dim stGigeInfoPtr As IntPtr = Marshal.AllocHGlobal(216)
-    '            Marshal.Copy(stDeviceInfo.stSpecialInfo.stGigEInfo, 0, stGigeInfoPtr, 216)
-    '            Dim stGigeInfo As CCamera.MV_GIGE_DEVICE_INFO
-    '            stGigeInfo = CType(Marshal.PtrToStructure(stGigeInfoPtr, GetType(CCamera.MV_GIGE_DEVICE_INFO)), CCamera.MV_GIGE_DEVICE_INFO)
-    '            Dim nIpByte1 As UInt32 = (stGigeInfo.nCurrentIp And &HFF000000) >> 24
-    '            Dim nIpByte2 As UInt32 = (stGigeInfo.nCurrentIp And &HFF0000) >> 16
-    '            Dim nIpByte3 As UInt32 = (stGigeInfo.nCurrentIp And &HFF00) >> 8
-    '            Dim nIpByte4 As UInt32 = (stGigeInfo.nCurrentIp And &HFF)
-
-
-    '            If (nIpByte4 = 50) Then
-
-    '                nRet = LiveCamera1.CreateDevice(stDeviceInfo)
-    '                LiveCamera1.CloseDevice()
-    '                LiveCamera1.DestroyDevice()
-    '                nRet = LiveCamera1.CreateDevice(stDeviceInfo)
-    '                If CCamera.MV_OK <> nRet Then
-
-    '                    livecheck = True
-    '                    LiveCamera1.DestroyDevice()
-    '                    MsgBox("Fail to create handle")
-    '                    Return
-    '                End If
-    '                nRet = LiveCamera1.OpenDevice()
-    '                If CCamera.MV_OK <> nRet Then
-    '                    livecheck = True
-    '                    LiveCamera1.DestroyDevice()
-    '                    MsgBox("Open device failed")
-    '                    Return
-    '                End If
-    '                If stDeviceInfo.nTLayerType = CCamera.MV_GIGE_DEVICE Then
-    '                    Dim nPacketSize1 As Int32
-    '                    nPacketSize1 = 55
-
-    '                    nRet = LiveCamera1.SetIntValueEx("GevSCPSPacketSize", nPacketSize1)
-
-    '                End If
-    '                Dim stTriggerMode1 As CCamera.MVCC_ENUMVALUE = New CCamera.MVCC_ENUMVALUE
-    '                nRet = LiveCamera1.GetEnumValue("TriggerMode", stTriggerMode1)
-    '                If CCamera.MV_OK <> nRet Then
-    '                    MsgBox("Fail to acquire trigger mode")
-    '                    Return
-    '                End If
-
-    '                Dim stTriggerSource1 As CCamera.MVCC_ENUMVALUE = New CCamera.MVCC_ENUMVALUE
-    '                nRet = LiveCamera1.GetEnumValue("TriggerSource", stTriggerSource1)
-    '                If CCamera.MV_OK <> nRet Then
-    '                    MsgBox("Fail to acquire trigger source")
-    '                    Return
-    '                End If
-    '                'Dim stExposureTime1 As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                'Dim fExposureTime As Single
-    '                ' fExposureTime = 31000.0
-    '                'nRet = LiveCamera1.SetFloatValue("ExposureTime", fExposureTime)
-    '                'If CCamera.MV_OK <> nRet Then
-    '                'MsgBox("Fail to acquire exposure time")
-    '                'End If
-
-    '                'Dim stGain1 As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                ' nRet = LiveCamera1.GetFloatValue("Gain", stGain1)
-    '                ' If CCamera.MV_OK <> nRet Then
-    '                'MsgBox("Fail to acquire gain")
-    '                'End If
-
-    '                'Dim stFrameRate1 As CCamera.MVCC_FLOATVALUE = New CCamera.MVCC_FLOATVALUE
-    '                ' nRet = LiveCamera1.GetFloatValue("ResultingFrameRate", stFrameRate1)
-    '                'If CCamera.MV_OK <> nRet Then
-    '                'MsgBox("Fail to acquire frame rate")
-    '                'End If
-
-    '            End If
-
-
-
-    '        Else
-    '            Dim stUsbInfoPtr As IntPtr = Marshal.AllocHGlobal(540)
-    '            Marshal.Copy(stDeviceInfo.stSpecialInfo.stUsb3VInfo, 0, stUsbInfoPtr, 540)
-    '            Dim stUsbInfo As CCamera.MV_USB3_DEVICE_INFO
-    '            stUsbInfo = CType(Marshal.PtrToStructure(stUsbInfoPtr, GetType(CCamera.MV_USB3_DEVICE_INFO)), CCamera.MV_USB3_DEVICE_INFO)
-
-    '            Console.WriteLine("[Dev " + Convert.ToString(i) + "]:")
-    '            Console.WriteLine("SerialNumber:" + stUsbInfo.chSerialNumber)
-    '            Console.WriteLine("UserDefinedName:" + stUsbInfo.chUserDefinedName)
-    '            Console.WriteLine("")
-    '        End If
-    '    Next
-
-
-
-
-
-    '    Threading.Thread.Sleep(5)
-
-    '    nRet = LiveCamera1.StartGrabbing()
-
-    'End Sub
     Private Sub btUser_Click(sender As Object, e As EventArgs) Handles btUser.Click
         Home_Page(New userlogin2)
         btUser.Hide()
@@ -584,24 +336,52 @@ Public Class Home_Page
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
+    Private Async Function Timer1_Tick(sender As Object, e As EventArgs) As Task Handles Timer1.Tick
         Label2.Text = DateTime.Now.ToString("dd MMM HH:mm:ss")
-        plc.GetDevice("D205", dval)
+        Dim startRegister As Integer = 204
+        Dim endRegister As Integer = 205
+        Dim numRegisters As Integer = endRegister - startRegister + 1
+
+
+        Dim words(numRegisters - 1) As Integer
+
+
+        For i As Integer = 0 To numRegisters - 1
+            plc.GetDevice("D" & (startRegister + i).ToString(), words(i))
+        Next
+
+        ' Create a byte array to hold the combined byte values
+        Dim bytes(numRegisters * 2 - 1) As Byte
+
+        ' Convert the 16-bit integers to a byte array
+        For i As Integer = 0 To words.Length - 1
+            Dim wordBytes() As Byte = BitConverter.GetBytes(words(i))
+            bytes(i * 2) = wordBytes(0)
+            bytes(i * 2 + 1) = wordBytes(1)
+        Next
+
+        ' Convert the byte array to a string
+        Dim strValue As String = System.Text.Encoding.ASCII.GetString(bytes)
+
+        ' Display the string in the RichTextBox
+
+        dval = strValue.TrimEnd(Chr(0))
 
         ' Check if dval has changed from the previous value
         If dval <> prevDval Then
             prevDval = dval ' Update the previous value
-            If dval <> 0 Then
+            If dval <> "0000" Then
                 ' Start asynchronous processing
                 DisplayAlarmAsync(dval)
             End If
-        ElseIf dval = prevDval AndAlso Checkagain = 0 Then
-            ' If dval is te same as before and Checkagain is 0, display the alarm again
-            If dval <> 0 Then
+        ElseIf dval = prevDval AndAlso Checkagain = "0000" Then
+            ' If dval is the same as before and Checkagain is 0, display the alarm again
+            If dval <> "0000" Then
                 DisplayAlarmAsync(dval)
             End If
         End If
-    End Sub
+    End Function
 
 
 
@@ -680,98 +460,7 @@ Public Class Home_Page
 
     End Sub
 
-    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
 
-        'Dim stFrameOut As CCamera.MV_FRAME_OUT = New CCamera.MV_FRAME_OUT()
-        'Dim stDisplayInfo As CCamera.MV_DISPLAY_FRAME_INFO = New CCamera.MV_DISPLAY_FRAME_INFO()
-        'Dim nRet1 = FidCam1.GetImageBuffer(stFrameOut, 1000)
-        'If CCamera.MV_OK = nRet1 Then
-
-
-
-
-
-
-
-        '    '    If stFrameOut.stFrameInfo.nFrameLen > m_nBufSizeForDriver1 Then
-        '    '        m_nBufSizeForDriver1 = stFrameOut.stFrameInfo.nFrameLen
-        '    '        ReDim m_pBufForDriver1(m_nBufSizeForDriver1)
-        '    '    End If
-
-        '    'm_stFrameInfoEx = stFrameOut.stFrameInfo
-        '    'Marshal.Copy(stFrameOut.pBufAddr, m_pBufForDriver, 0, stFrameOut.stFrameInfo.nFrameLen)
-        '    'stDisplayInfo.hWnd = fidpic.Handle
-        '    'stDisplayInfo.pData = stFrameOut.pBufAddr
-        '    'stDisplayInfo.nDataLen = stFrameOut.stFrameInfo.nFrameLen
-        '    'stDisplayInfo.nWidth = stFrameOut.stFrameInfo.nWidth
-        '    'stDisplayInfo.nHeight = stFrameOut.stFrameInfo.nHeight
-        '    'stDisplayInfo.enPixelType = stFrameOut.stFrameInfo.enPixelType
-        '    'Home_Page.FidCam1.DisplayOneFrame(stDisplayInfo)
-
-        '    'Home_Page.FidCam1.FreeImageBuffer(stFrameOut)
-        '    'PictureBox9.Hide()
-
-        '    If stFrameOut.stFrameInfo.nFrameLen > m_nBufSizeForDriver1 Then
-        '        m_nBufSizeForDriver1 = stFrameOut.stFrameInfo.nFrameLen
-        '        ReDim m_pBufForDriver1(m_nBufSizeForDriver1)
-        '    End If
-
-        '    m_stFrameInfoEx = stFrameOut.stFrameInfo
-        '    Marshal.Copy(stFrameOut.pBufAddr, m_pBufForDriver1, 0, stFrameOut.stFrameInfo.nFrameLen)
-
-        '    Dim stSaveImageParam As CCamera.MV_SAVE_IMG_TO_FILE_PARAM = New CCamera.MV_SAVE_IMG_TO_FILE_PARAM()
-        '    Dim pData As IntPtr = Marshal.UnsafeAddrOfPinnedArrayElement(m_pBufForDriver1, 0)
-        '    stSaveImageParam.pData = pData
-        '    stSaveImageParam.nDataLen = m_stFrameInfoEx.nFrameLen
-        '    stSaveImageParam.enPixelType = m_stFrameInfoEx.enPixelType
-        '    stSaveImageParam.nWidth = m_stFrameInfoEx.nWidth
-        '    stSaveImageParam.nHeight = m_stFrameInfoEx.nHeight
-        '    stSaveImageParam.enImageType = CCamera.MV_SAVE_IAMGE_TYPE.MV_Image_Png
-        '    stSaveImageParam.iMethodValue = 1
-        '    stSaveImageParam.nQuality = 90
-        '    stSaveImageParam.pImagePath = "C:\Manage Files\Load\" & "123" & ".Png"
-
-
-
-
-        '    Thread.Sleep(30)
-
-
-        '    'File.Delete("D:\Logs\fidimage")
-        '    nRet1 = FidCam1.SaveImageToFile(stSaveImageParam)
-
-
-        '    If (CCamera.MV_OK <> nRet1) Then
-        '        'MsgBox("Save Image fail!")
-        '    Else
-
-        '        ' PictureBox7.Load("D:\Logs\fidimage\Image_w" & ".jpg")
-
-
-
-        '    End If
-        '    FidCam1.DisplayOneFrame(stDisplayInfo)
-
-        '    FidCam1.FreeImageBuffer(stFrameOut)
-        'Else
-        '    'plc.SetDevice("M247", 0)  ''''''''''' RED LIGHT
-        '    Thread.Sleep(100)
-        'End If
-
-
-        ''  PictureBox7.Image = PictureBox9.Handle
-
-
-
-
-        ''Else
-        ''    If RadioButtonTriggerOn.Checked Then
-        ''        Threading.Thread.Sleep(5)
-        ''    End If
-        ''End If
-        '' PictureBox7.Invalidate()
-
-    End Sub
     Private Sub Home_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
 
         FidCam1.CloseDevice()
@@ -839,21 +528,7 @@ Public Class Home_Page
         Me.Controls.Add(btnLogin)
     End Sub
 
-    'Private Sub Login(sender As Object, e As EventArgs)
-    '    Dim username As String = CType(Me.Controls("txtUsername"), TextBox).Text
-    '    Dim password As String = CType(Me.Controls("txtPassword"), TextBox).Text
 
-    '    ' Load XML file and validate login
-    '    Dim doc As XDocument = XDocument.Load("UserCredentials.xml")
-    '    Dim user = doc.Descendants("User").FirstOrDefault(Function(u) u.Element("Username").Value = username AndAlso u.Element("Password").Value = password)
-
-    '    If user IsNot Nothing Then
-    '        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-    '        ShowSPCModuleForm()
-    '    Else
-    '        MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '    End If
-    'End Sub
 
     Private Sub ShowSPCModuleForm()
         ' Remove existing login controls
@@ -944,7 +619,7 @@ Public Class Home_Page
             package.Save()
         End Using
     End Sub
-    Private Async Sub DisplayAlarmAsync(currentDval As Integer)
+    Private Async Sub DisplayAlarmAsync(currentDval As String)
         ' Ensure that the alarm form is not already open
         If alarmForm Is Nothing OrElse alarmForm.IsDisposed Then
             ' Run the background processing on a different thread

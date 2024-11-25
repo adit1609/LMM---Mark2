@@ -25,7 +25,7 @@ Public Class Alarms
     Private Sub Alarms_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         plc.ActLogicalStationNumber = 1
         plc.Open()
-
+        Me.Location = New Point(688, 394)
         Me.BringToFront()
     End Sub
 
