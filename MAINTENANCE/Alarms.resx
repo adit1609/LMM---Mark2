@@ -117,116 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="Panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 7</value>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
   </data>
-  <data name="Button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 75</value>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>Panel2</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Button3.Text" xml:space="preserve">
-    <value>CLEAR ALL</value>
-  </data>
-  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
-    <value>Button3</value>
-  </data>
-  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
   </data>
-  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 7</value>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>Panel2</value>
   </data>
-  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 75</value>
-  </data>
-  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="Button2.Text" xml:space="preserve">
-    <value>CLEAR</value>
-  </data>
-  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
-    <value>Button2</value>
-  </data>
-  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
-  </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 7</value>
-  </data>
-  <data name="Button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 75</value>
-  </data>
-  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
-  </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 198</value>
-  </data>
-  <data name="Panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 94</value>
-  </data>
-  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
     <value>Panel3</value>
@@ -235,127 +152,48 @@
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
-    <value>Panel1</value>
+    <value>Panel2</value>
   </data>
   <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 14</value>
-  </data>
-  <data name="Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 25</value>
-  </data>
-  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label4.Text" xml:space="preserve">
-    <value>CODE</value>
-  </data>
-  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
-    <value>Label4</value>
-  </data>
-  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 53</value>
-  </data>
-  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 79</value>
-  </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>ALARM</value>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
   </data>
-  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
-  </data>
-  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="Label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
+    <value>Button3</value>
   </data>
-  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 53</value>
-  </data>
-  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>- 1</value>
-  </data>
-  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
-    <value>Label2</value>
-  </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+    <value>Fill</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 69</value>
-  </data>
-  <data name="Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>0, 0</value>
   </data>
   <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 106</value>
+    <value>641, 387</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
     <value>Panel2</value>
@@ -367,40 +205,7 @@
     <value>Panel1</value>
   </data>
   <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 69</value>
-  </data>
-  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>ALARM</value>
-  </data>
-  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
-    <value>Label1</value>
-  </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -412,7 +217,7 @@
     <value>3, 2, 3, 2</value>
   </data>
   <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 292</value>
+    <value>641, 387</value>
   </data>
   <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -429,14 +234,553 @@
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 202</value>
+  </data>
+  <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 98</value>
+  </data>
+  <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 98</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>ALARM</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 119</value>
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 83</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 83</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 119</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 12</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 98</value>
+  </data>
+  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="Button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 305</value>
+  </data>
+  <data name="Button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 75</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>RESET</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="Button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 305</value>
+  </data>
+  <data name="Button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 75</value>
+  </data>
+  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Button3.Text" xml:space="preserve">
+    <value>RESET ALL</value>
+  </data>
+  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
+    <value>Button3</value>
+  </data>
+  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>120, 120</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>545, 292</value>
+    <value>641, 387</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAPDwAAAEAIABIOgAAFgAAACgAAAA8AAAAeAAAAAEAIAAAAAAAQDgAACAcAAAgHAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAABuq6wAaqusAHKrrAB6q7AAfq+0AH6zuAB+s7gAeq+0AHqzuAB2r7QAdqu0AHKrtABuq
+        7QAbqu0AGqnsABqo7AAZqOwAGKjsABip7AAXqOwAFqjsABao7AAWqOsAFajrABWo6wAWqOsAFqfrABan
+        6wAVp+sAFqfsABan7AAVp+sAFqjrABao7AAXqOwAGKnsABip7AAZqOwAGansABqp7AAbqu0AG6rtAByq
+        7AAdq+0AHaztAB2s7QAeq+0AH6vtAB+s7gAfq+0AH6zuAB2r7QAcquwAGarrABeq6wAYqusAAAAAAAAA
+        AAAAAAAAAAAAABqq6wAZqusMG6rrNh2q7G0equx+H6vtgB6s7oAeq+2AHqzugB2r7YAcqu2AG6rtgBqq
+        7YAaqu2AGqnsgBmo7IAYqOyAF6jsgBep7IAXqOyAFqjsgBWo7IAVqOuAFKjrgBSo64AVp+uAFqfrgBWn
+        64AVp+uAFafsgBWn64AVp+uAFajrgBWo7IAWqOyAF6jsgBio7IAYqOyAGKnsgBmp7IAaqeyAG6rtgByq
+        7IAcq+2AHKztgB2r7YAeq+2AH6vtgB+s7oAfq+2AHqvtgB2r7X4cquxtGKrrNhaq6wwXqusAAAAAAAAA
+        AAAAAAAAAAAAAB6r6wAeq+soHqvsmh+r7e0grO7/Ia3u/yCt7v8grO7/IK3u/x+s7v8frO3/Hqvu/x2r
+        7v8dq+7/HKrt/xyq7f8bqe3/Gqnt/xqq7f8Zqe3/Gant/xip7P8Yqez/F6ns/xep6/8Yqev/GKjs/xio
+        7P8XqOz/GKjs/xio7P8Yqev/GKns/xip7P8Zqe3/Gqrs/xqq7P8bqe3/G6rt/xyq7f8dq+3/Havu/x6r
+        7f8frO7/H63u/x+s7v8grO7/Iazu/yCs7v8grO7/IKzu/x+s7v8dq+ztGqrsmhmq6ygaqusAAAAAAAAA
+        AAAAAAAAAAAAACGs7AAhrOxDIazs6SOu7/0kr/D/Ja/w/yWv7/8lr+//Ja/v/yav7/8lr+//JK7v/ySv
+        7/8kru//I67w/yOt8P8ire//Iq3v/yGt7v8gre//IK3v/yCt7v8grO7/H63t/x+t7f8fre3/Hq3u/x6t
+        7v8fre3/H6zt/x+s7f8gre3/IK3t/yCt7v8gre7/IK3u/yGt7v8ire7/Iq3v/yOt8P8jrvD/JK/w/yWu
+        7/8lrvD/Ja/w/yWv8P8mr/D/Ja/w/yWu7/8kru//I67v/yKt7v8grO39HKvs6Byr7EMcq+wAAAAAAAAA
+        AAAAAAAAAAAAACKs7QAirO1DIqzt6SWv7/0nsPD/KLDw/ymx8P8psvL/KbLy/yqy8f8psvH/KrLy/yqy
+        8v8psvH/KbHx/yix8f8nsfH/J7Dx/yaw8P8msPD/JbDw/yWw8P8lsPD/JbDw/yWw8P8ksPD/JLDw/ySw
+        8P8ksPD/JLDv/ySw8P8lsPD/JbDw/yWw8P8lsfD/JrDw/yew8P8nsfH/J7Hy/ymx8v8psfL/KbHx/ymx
+        8f8psfL/KbLx/yqy8f8qsfH/KbHx/yiw8P8nsPD/JrDv/ySu7/8gre79Havs6Ryr7EMcq+wAAAAAAAAA
+        AAAAAAAAAAAAACSt7gAkre4yJK7uuCev7/cpsO//K7Hw/yyy8f8ts/H/LbPy/y6z8v8ts/L/LbTx/y60
+        8v8us/L/LbPy/yyz8f8ssvH/LLLy/yyy8f8rsvH/K7Lx/yqx8f8qsfH/KrLx/ymy8f8psvH/KbLx/ymy
+        8f8qsvH/KbLx/ymy8v8qsvH/KrHx/yqy8f8rsvH/K7Lx/yyy8f8ssvH/LLLx/y2y8v8us/L/LrPy/y6z
+        8v8us/H/LrPy/y208v8ts/L/LLLx/yux8f8qsfD/KLDv/yWu7/8irO33H6vtuR6r7TIeq+0AAAAAAAAA
+        AAAAAAAAAAAAACWv8AAkr/ASJq/wXiiv7+IqsPD/LbLx/y6z8v8vtPL/MLTy/zG18/8xtfP/MbXz/zG1
+        8/8xtfP/MbXz/zG08/8xtPP/MbTz/zC08/8wtPP/L7Tz/y+08/8vtPP/LrTz/y608/8utPP/Lrb2/y64
+        +f8vuPj/LrX2/y608/8us/L/LrPy/y+z8v8vtPL/MLTz/zC08/8ws/L/MLTy/zG08/8ytfP/Mrbz/zK1
+        8/8ytfL/MbTy/zG18v8wtPL/LrTx/y2y8f8rsfD/KK/v/yWt7v8hrOzkIqztYCKt7hMire0AAAAAAAAA
+        AAAAAAAAAAAAAB7l/wAqrOgAKbHyFymv76orsfDxLrPx/zC08v8xtfL/MrXy/zO28/80tvT/Nbb0/zS3
+        9P81t/T/NLf0/zS29P80tvT/NLf0/zO39P8ztvT/M7b0/zK29P8ytvP/Mrbz/zK29P8xse7/L6PZ/y2P
+        vv8tj77/L6LZ/zKx7f8ytvT/Mrbz/zK28/8ztvP/NLb0/zS29P8ztvP/NLbz/zW29P81t/T/Nbf0/zS3
+        9P81t/P/NLbz/zO18/8ytfL/MLXy/y6z8f8rsfD/KK7v/yWt7fMhrO2vJrPqGRGb9ABq/skAAAAAAAAA
+        AAAAAAAAAAAAACS2/wAqse8AKrHvCiqx708ssfDMLrPx/zG08f8ytfL/NLbz/zW38/82t/T/N7f0/ze4
+        9P83uPP/N7j0/ze49P83t/T/Nrj0/za49P82uPT/Nrj0/zW39P81t/T/Nbj0/za59v8yoNP/LGqH/yQz
+        Ov8kNDv/LGuJ/zOg1P82ufb/Nbf0/zW39P82uPT/Nrj0/za49P83ufT/N7f0/ze49P83uPT/N7j0/ze4
+        9P82uPT/Nrf0/zW39P80tvP/MrXy/y+z8P8ssvD/KK/u/yWt7c4mrvBWJq7wCyWt8AA4xuIAAAAAAAAA
+        AAAAAAAAAAAAACS2/wAqse8AJ7DtASux7wwusvGWL7Px7jG08f8ztfL/Nrf0/ze48/84uPT/Obn0/zq5
+        8/86ufX/Orr1/zq59f86ufX/Orr1/zq69f85uvT/Obr0/zm59f84ufT/Obn0/zm8+v8wfKD/JjM6/yQm
+        Jv8kJib/JjQ7/zB9of85vPr/Obn0/zm59P85uvX/Orr1/zq59v86u/b/Orn1/zq59f86ufX/Orn1/zq6
+        9f85ufP/OLn0/ze49P81tvP/M7Xy/zCz8P8ssu//KLDu7yav7pcmrvANJq3zASev8AA4xuIAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAqse8ALbLwABWo6AAvs/E/L7PwszC08f80tfL/N7jz/zm49P86ufT/O7r0/zu5
+        9P88ufX/Pbr1/z269f88uvb/Pbv1/z279f89uvX/PLv1/zy69f88uvX/PLr1/zy++/8xdpb/Jikr/yUl
+        JP8lJST/Jios/zJ3l/88vvv/PLr1/zy69f88uvX/PLr1/z279v89u/b/PLr2/z269f89uvX/PLr1/zu5
+        9f87ufT/Ornz/zm48/82tvP/M7Xx/zCz7/8rse3/KLDttiav8EMkqvIAJq/wACau8AAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMrbwADK28AA0uO8JMLPwdTG08ek0tfL/OLfy/zq49P87ufX/PLr1/z26
+        9f8+uvX/P7r1/z+89v8/vPb/P7z1/z+89f8/u/b/P7z2/z689v8/u/b/P7v3/z+++v84kbr/Lk9f/ygr
+        Lf8oKy3/LlBg/ziRu/8/v/v/P732/z+89v8/vPb/P7z2/z+89v8/vPb/P7v2/z+79f8/u/X/Prr2/z26
+        9f89ufX/O7n0/zm48/83t/L/M7Xx/y+y8P8rse3qKbDteCau9Qsnr/IAJ6/yAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMbXwADG18AAxtPEAMbPyOTK08aU0tfH7OLfy/zq48/88uvT/Prr1/z+7
+        9f9Au/b/QLv1/0G99v9Cvvf/Qr32/0G99v9Cvff/Qr33/0G99/9Bvff/Qbz3/0G++P8/seb/OY20/zJg
+        df8yYXb/OY21/z+x5/9Cvvn/Qr73/0G99v9Cvff/Qr33/0G99/9Cvff/Qrz1/0G89f9BvPb/QLv2/z+7
+        9v89ufX/PLr1/zq48/83t/L/M7Xx/y6y8Pwssu6nK7LtOiqx7gAnr/EAJ6/xAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzvv0AL9r/AzS281A1tPDkOLfy/Tu48/89uvP/P7r1/0G7
+        9v9CvPb/Qr32/0O+9v9Dvvb/Q733/0S+9/9Fvvf/RL73/0S/9/9Ev/f/RL33/0O99/9Dvff/Q732/0O9
+        9f9DvfX/Q732/0S99/9Evvj/RL74/0S99/9Evfb/RL33/0S99/9Dvvf/Q732/0O99v9Cvfb/Qrz2/0G7
+        9f8+ufT/PLnz/zq48/82tvH/MbTw/S6y7+YvtPBTR835BDa78gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wv8ANbHuADS18yg1tfKYOLfy8ju48/89ufP/QLv0/0K8
+        9f9EvfX/RL72/0W+9v9Fv/f/Rr/3/0a/+P9Hv/j/R7/3/0fA9/9IwPf/R773/0e/+P9Hv/j/R7/3/0e/
+        9f9Hv/X/R7/3/0fA+P9HwPf/R7/3/0fA9/9Hv/f/R7/3/0a/+P9Gv/f/Rr/3/0W+9v9Evfb/Q7z1/0K7
+        9f8/uvX/PLn0/zm38v81tfH/MLLw8jCz8Jkws/EpLK/vADq+9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzv/8ANrb2ADez9gc3tfM8N7bx1Du38v0+uPP/QLr0/0O7
+        9f9FvfT/Rr71/0e/9/9Hv/f/SL/3/0nA+P9JwPj/ScD3/0nA9/9JwPf/SsD4/0rA9/9Kwvv/RanX/zty
+        i/87cov/RqjX/0rD+/9KwPf/Sb/3/0rB9/9KwPj/ScD4/0nA9/9JwPf/SL/2/0e+9v9Gvvb/RLz2/0K7
+        9f9AufT/Pbjz/zm28f80tPD+MLHv1zCx8T4xsPUHMrLzADe88wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI7vsADO37wA8tfEPOLbwhzu28eU9uPP/Qbr0/0S8
+        9f9FvfX/R772/0m/9v9Jv/f/SsD4/0zA+P9MwPf/TMH3/0zB9/9Mwfj/TMH4/03B+P9Mwfj/Q5W6/zI9
+        Qv8yPUL/RJS6/03B+P9Mwfn/TMH3/0zB+P9Mwfj/TMD3/0vA9/9LwPf/Sb/3/0i/9/9Hvvb/Rr32/0O7
+        9P9BuvT/Pbjz/zi18f80s+/oMbLvjTKu8RAwuOwALNjdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVar/AD247wA8ue4FPbjvMTu28bo9uPL+Qbr0/0S8
+        9P9Gvvb/SL72/0q/9/9LwPf/TMD4/03B+P9Owvj/T8L3/0/C+P9Ow/j/T8L4/0/C+f9NvfH/Q4qq/zEx
+        Mf8xMTH/Q4qr/0698v9Pw/r/TsP4/0/B+P9Owfj/TsH4/07B9/9Mwff/S8H4/0q/9/9Jv/f/R771/0S8
+        9P9Bu/T/PLjy/ze18P40tO+8NLXwNTW28AY0tPEAM5n/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy47wA7uPIAO7jwAzu48Xs9uPLdQLrz/0O8
+        9P9Hvvb/Sb/3/0vA9/9Nwff/TsH3/07C+f9Qw/j/UcP4/1HD+P9RxPn/UcP5/1HF+v9Puuv/RISj/zIz
+        NP8yMzT/RIak/1C77P9Sxfr/UcT5/1HC+P9Qw/j/UMP4/1DD+f9Owvj/TML4/0vA9/9Jv/f/R771/0S8
+        9P9Au/T/O7fy/ze18N81tfB9NbXwAzW18AA0tfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy47wBBuPEARLjzAUK48iM/uPGbP7ny/0O7
+        8/9HvvX/Sr/2/0zA9/9Owfj/UMP4/1HC9/9Rw/j/U8P5/1TE+f9UxPn/VMT5/1TF+/9Rtub/RYCc/zQ1
+        Nf80NTX/RYGd/1K35v9Vxvr/VMT5/1TE+f9Sw/j/UsP4/1LD+P9Qwvj/TsH4/0zA9/9Jv/f/R771/0O8
+        9P8/ufL/Obbw/ze17542tu8nN7buATa27wA0tfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLuPIAS7jyALC9/wE+t/BhP7jx1UK7
+        8v9GvfT/Sr/1/03A9v9Pwvj/UcL4/1LD9/9Tw/j/VMT4/1XF+P9Vxfn/VsX6/1bH+/9Ss+D/RnuV/zY3
+        OP82Nzj/RnyW/1Kz4f9Xxvv/VsX5/1bF+f9UxPj/U8P4/1PD9/9Rwvj/T8H3/03A9/9Kvvb/R731/0O7
+        8/89t/L/ObXw1zi072I2vOcCOLbtADi27QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGuPIARrjyAEG48QA/uPEjQLnyhUG6
+        8/hGvPT/Sr71/03A9v9Pwvf/UcP3/1LD+P9UxPj/VcX4/1bF+f9Xxvr/V8X6/1jH+/9TsNv/R3eO/zg5
+        Of84OTn/RniO/1Kw2/9Yx/z/WMb6/1fG+v9Wxfn/VcT4/1TE+P9Swvj/UML3/03A9/9Kvvb/Rrz0/0G6
+        8v87tvL5OrbyiDm18iQ5tvEAN7buADe27gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF3R/wAvreMAQrv0PUG6
+        885Fu/P6Sb30/03A9v9Qwff/UsP3/1PE+P9Vxfn/V8X5/1jG+f9Zxvr/Wcf6/1rI/P9UrNX/R3OH/zo6
+        O/86Ojv/R3OH/1St1v9ayPz/Wcf6/1jH+v9Yxvn/VsX5/1TE+P9Tw/j/UML3/03B9v9JvvX/RLvz/z+4
+        8fo7t/HQO7jzQDaX0QA+zP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE7E/wBCu/EAQ7vxHEO7
+        8XlEuvLqR7zz/0u+9f9Qwfb/U8L3/1XF+P9Xxfj/WMX4/1nG+f9axvn/XMj6/1zJ/f9VqdD/R25//zs8
+        PP87PDz/SG6A/1ap0P9cyv3/W8f6/1rG+f9Zxfn/WMX4/1bE+P9Uw/f/UcL3/03A9v9IvvT/Q7ry/z64
+        8Os+t/J6PrfyHD638gA8w/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE7E/wA8w/MAAP//AEC+
+        8iZDu/HCR7zz+Eu+9P9QwPX/U8H2/1XE9/9Yxfj/WcX4/1rF+P9bxvj/Xcb5/17J/P9Wpcr/SGp5/z09
+        Pv89PT7/SGl6/1amzP9eyv3/Xcf5/1zH+f9axvj/WMX4/1bE+P9Uw/j/UcH2/02/9f9IvPP/Qrny+T22
+        8cY7ufInAP//ADfA9AA8w/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcouwASrfwAEO/
+        8QtGvPFlRrvy2Um98/9OwPX/U8H2/1XD9/9Yxfj/Wsb4/1zH+f9dx/n/Xsf6/2DL/v9Wosb/SGVy/z8/
+        P/8/Pz//SGVz/1ajxv9fy/3/Xsf6/13H+v9bxvn/WcX4/1fE+P9Twvb/UMD1/0u+9P9Fu/L/Qbjw20G4
+        8Ws/vPIMRbPwAFWd7QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8ASL/wAE27
+        7wNKvPAdRbvyqEi88/dMv/T/UcH2/1XD9v9YxPj/W8b4/13H+f9eyPn/X8j5/2HM/v9Xn8D/R2Br/0BB
+        Qf9AQUH/SGFs/1afwf9gy/7/X8j6/17I+v9cxvn/WsX4/1fE9/9Twvb/T8D1/0m99P9DuvL3QLjwqke8
+        8SBLvPEDRr7xAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASbzwAEe7
+        8QATnP8ARrryX0e88spKvvP/UMH1/1PD9v9YxPf/W8b4/13H+P9fyPn/YMj5/2LM/v9Xm7v/SFtk/0JC
+        Qv9CQkL/SFxl/1ebu/9izP7/Ycn6/1/I+f9dx/n/WsX4/1fE9v9Twvb/TsD1/0e88/9DufLMQbjyYd//
+        3QBDufEARrvxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEu1
+        8ABLtfAATLHvEUe78oZJvfP3TcD0/1LC9f9Ww/b/WsX3/13H+P9gyfn/Ycn5/2PM/v9Xl7b/SFde/0NE
+        RP9DRET/SFhf/1eYt/9jzf7/Ycn6/1/I+f9dxvj/WsX3/1bD9v9SwfX/TL7z/0W78fhCuvGIRLr6E0S6
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABPvPIAT73zAE247gBQvvRCTb7ytE+/8/9Vw/X/WsX3/17H+P9hyfj/Y8n5/2TJ
+        +f9kyvn/ZMr5/2PK+f9hyPn/Xcb3/1nE9v9SwfT/T7/zt06+8kVLuv8ATb71AE299wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAXLj2AFy49gB2r/wETb3yc06/8+pSwfT/WMP2/1zG9/9gyPj/Ysn4/2PJ
+        +f9kyfn/Y8n4/2LJ+P9gyPj/XMX2/1fD9f9RwPPrTr/zdVnQ/AZUx/cAVMf3AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAWLr1AFi69QBPw/QAUMP0PE7A86hOv/L7VcL0/1rE9v9ex/b/YMj3/2LJ
+        +P9jyPj/Ysn4/2HI9/9dxvf/WcX2/1TC9PtRwPSoT730PFC99ABSxfYAUsX2AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAWLr1AFi69QBLzfYAR/7/A0vA8lJMvvHmUsHz/VfE9f9bxvb/Xsf3/2DI
+        +P9hyPf/Ycj3/1/I9/9cxvb/V8T1/VHB9ehPwPVUQbn8BEy/9wBSxfYAUsX2AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0duYAVLfxAE/C8yVPv/KWT7/y81TC8/9ZxPX/Xcb2/1/H
+        9/9gx/b/YMf2/17G9v9axPX/VsL09FPB9ZpRwfYnVsHyANW2ngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz//8AVMb1AFvF9wlSwPNCTb3x1lHA8v1Ww/T/WsX1/13G
+        9v9exvb/XsX2/1zE9f9Yw/X9VMH01lTB9ERWwfYKU8H2AD+//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVML0AE698QBLu/AQTLzwkU6+8ehRwPL/VsP0/1rF
+        9P9cxfX/W8T1/1nE9f9Xw/ToUsHzkVLB8xBTwfQAVMH1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE269QBNuvUFTbr0MEu78LxOvfH/U8Hy/1fD
+        8/9YxPT/WMP1/1bC9P9VwvO+VcP2M1XD9gZVw/YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE269gBRtP8ATbr0CEy88IJNvfHhUL/z/1TB
+        9P9WwvX/VsL0/1TB8+FRv/KCVML1CF/N/wBVw/YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE269QBOvfMAKjX/AE/A8SpKvPGhS73x/1G/
+        8/9UwPT/U8Dz/1G/8qFRwfIqeNj/AFPC9ABVw/YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABd1fgAXdX4AP///wBJvPFTSrvxwUy9
+        8fVPvvL1T73ywU6+8lP///8AWtP2AFrT9gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVyfQAVcn0AE++8wBOu/MXSrvyVki7
+        8ZxKvPGcSrvxVUm58hdMvfIAVcn0AFXJ9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEy78gBNu/IASrvxAki7
+        8QNLvPEDS7vxAkq68gBKuvIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEy78gBNu/IASrvxAEi7
+        8QBLvPEAS7vxAEq68gBKuvIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////8P/////////w//////////D/////////8P/////////w//////////DAAAAAAAAAMMAA
+        AAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAA
+        ADDAAAAAAAAAMOAAAAAAAABw8AAAAAAAAPDwAAAAAAAA8PwAAAAAAAPw/AAAAAAAA/D8AAAAAAAD8P4A
+        AAAAAAfw/gAAAAAAB/D/AAAAAAAP8P8AAAAAAA/w/4AAAAAAH/D/gAAAAAAf8P/gAAAAAH/w/+AAAAAA
+        f/D/4AAAAAB/8P/wAAAAAP/w//AAAAAA//D/+AAAAAH/8P/8AAAAA//w//wAAAAD//D//AAAAAP/8P//
+        AAAAD//w//8AAAAP//D//4AAAB//8P//gAAAH//w///AAAA///D//8AAAD//8P//4AAAf//w///gAAB/
+        //D//+AAAH//8P//+AAB///w///4AAH///D///wAA///8P///gAH///w///+AAf///D///4AB///8P//
+        /wAP///w////AA////D////AP///8P///8A////w//////////D/////////8P/////////w////////
+        //A=
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>

@@ -772,6 +772,10 @@
     <None Include="Resources\icons8-rotate-right-64.png" />
     <None Include="Resources\icons8-rotate-left-64.png" />
     <None Include="Resources\mark 2.PNG" />
+    <None Include="Resources\warning.gif" />
+    <None Include="Resources\icons8-warning.gif" />
+    <None Include="Resources\out %284%29.jpg" />
+    <None Include="Resources\out %284%291.jpg" />
     <Content Include="USER MANAGMENT\userlogin11.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

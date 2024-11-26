@@ -2,10 +2,9 @@
 
 Public Class Alarms
     Dim plc As New ActUtlType
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
 
-        ' plc.SetDevice("M100", 1)
-        'plc.SetDevice("D222", 0)
+
         Me.Close()
 
     End Sub
@@ -38,7 +37,7 @@ Public Class Alarms
         ' plc.SetDevice("D222", 0)
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
