@@ -27,13 +27,12 @@ Partial Class Home_Page
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.pnDock = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btProg = New System.Windows.Forms.Button()
         Me.btoper = New System.Windows.Forms.Button()
@@ -46,12 +45,13 @@ Partial Class Home_Page
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        Me.Panel5.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -85,6 +85,39 @@ Partial Class Home_Page
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(772, 90)
         Me.Panel3.TabIndex = 1
+        '
+        'Panel5
+        '
+        Me.Panel5.Controls.Add(Me.Button2)
+        Me.Panel5.Controls.Add(Me.Panel4)
+        Me.Panel5.Location = New System.Drawing.Point(487, 46)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(284, 44)
+        Me.Panel5.TabIndex = 12
+        '
+        'Panel4
+        '
+        Me.Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel4.Controls.Add(Me.Button9)
+        Me.Panel4.Controls.Add(Me.Button7)
+        Me.Panel4.Controls.Add(Me.Button6)
+        Me.Panel4.Location = New System.Drawing.Point(71, 0)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(210, 41)
+        Me.Panel4.TabIndex = 0
+        '
+        'Button7
+        '
+        Me.Button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.Button7.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Location = New System.Drawing.Point(72, 0)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(69, 41)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "SPC"
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -121,55 +154,6 @@ Partial Class Home_Page
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "lblDateTime"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Panel4
-        '
-        Me.Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel4.Controls.Add(Me.Button9)
-        Me.Panel4.Controls.Add(Me.Button7)
-        Me.Panel4.Controls.Add(Me.Button6)
-        Me.Panel4.Location = New System.Drawing.Point(71, 0)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(210, 41)
-        Me.Panel4.TabIndex = 0
-        '
-        'Button9
-        '
-        Me.Button9.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.Location = New System.Drawing.Point(3, 0)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(69, 41)
-        Me.Button9.TabIndex = 7
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button7.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(72, 0)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(69, 41)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "SPC"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Image = Global.Gui_Tset.My.Resources.Resources.icons8_logout_64
-        Me.Button6.Location = New System.Drawing.Point(141, 0)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(69, 41)
-        Me.Button6.TabIndex = 5
-        Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -278,9 +262,6 @@ Partial Class Home_Page
         'Timer2
         '
         '
-        'Timer3
-        '
-        '
         'Button2
         '
         Me.Button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
@@ -293,14 +274,31 @@ Partial Class Home_Page
         Me.Button2.TabIndex = 8
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Panel5
+        'Button9
         '
-        Me.Panel5.Controls.Add(Me.Button2)
-        Me.Panel5.Controls.Add(Me.Panel4)
-        Me.Panel5.Location = New System.Drawing.Point(487, 46)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(284, 44)
-        Me.Panel5.TabIndex = 12
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button9.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Image = Global.Gui_Tset.My.Resources.Resources.icons8_brightness_50
+        Me.Button9.Location = New System.Drawing.Point(3, 0)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(69, 41)
+        Me.Button9.TabIndex = 7
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.Button6.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Image = Global.Gui_Tset.My.Resources.Resources.icons8_logout_64
+        Me.Button6.Location = New System.Drawing.Point(141, 0)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(69, 41)
+        Me.Button6.TabIndex = 5
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Home_Page
         '
@@ -315,9 +313,9 @@ Partial Class Home_Page
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

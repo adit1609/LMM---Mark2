@@ -793,6 +793,7 @@
     <Content Include="Resources\icons8-arrow-60.png" />
     <Content Include="Resources\icons8-arrow-601.png" />
     <Content Include="Resources\icons8-arrow-602.png" />
+    <None Include="Resources\icons8-brightness-50.png" />
     <Content Include="Resources\icons8-down-24.png" />
     <Content Include="Resources\icons8-down-arrow-60.png" />
     <Content Include="Resources\icons8-minus-30.png" />
