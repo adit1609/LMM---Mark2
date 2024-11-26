@@ -153,6 +153,7 @@ Public Class Recipe
 
         Return BitConverter.ToSingle(bytes, 0)
     End Function
+
     Private Sub Panel5_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
@@ -164,13 +165,15 @@ Public Class Recipe
         plc.ActLogicalStationNumber = 1
         plc.Open()
         Timer1.Start()
+        TabControl1.DrawMode = TabDrawMode.OwnerDrawFixed
+        AddHandler TabControl1.DrawItem, AddressOf TabControl1_DrawItem
     End Function
     Private Sub Recipe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+
         Guna2CircleButton1.BackColor = normal
         plccon()
-        'PictureBox1.BackColor = Color.Red
-        ' PictureBox2.BackColor = Color.Red
+
 
 
         rtxtcurrentpg.Text = My.Settings.ProgramName
@@ -5591,6 +5594,27 @@ Public Class Recipe
 
     Private Sub PLCB_UNLOAD_MouseUp(sender As Object, e As MouseEventArgs) Handles PLCB_UNLOAD.MouseUp
         plc.SetDevice("M233", 0)
+    End Sub
+
+    Private Sub TabControl1_DrawItem(sender As Object, e As DrawItemEventArgs) Handles TabControl1.DrawItem
+        Dim g As Graphics = e.Graphics
+        Dim textBrush As Brush
+        Dim tabPage As TabPage = TabControl1.TabPages(e.Index)
+        Dim tabBounds As Rectangle = TabControl1.GetTabRect(e.Index)
+
+        If e.State = DrawItemState.Selected Then
+            textBrush = New SolidBrush(Color.Red)
+            g.FillRectangle(Brushes.Gray, e.Bounds)
+        Else
+            textBrush = New SolidBrush(e.ForeColor)
+            e.DrawBackground()
+        End If
+
+        Dim tabFont As New Font("Arial", 10.0F, GraphicsUnit.Pixel)
+        Dim stringFlags As New StringFormat()
+        stringFlags.Alignment = StringAlignment.Center
+        stringFlags.LineAlignment = StringAlignment.Center
+        g.DrawString(tabPage.Text, tabFont, textBrush, tabBounds, stringFlags)
     End Sub
 End Class
 
