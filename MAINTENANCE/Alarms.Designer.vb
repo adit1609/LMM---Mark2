@@ -119,6 +119,7 @@ Partial Class Alarms
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Alarms"
+        Me.Opacity = 0.93R
         Me.ShowInTaskbar = False
         Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
