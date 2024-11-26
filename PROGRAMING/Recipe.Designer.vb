@@ -1172,6 +1172,7 @@ Partial Class Recipe
         'Panel17
         '
         Me.Panel17.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel17.Controls.Add(Me.PictureBox1)
         Me.Panel17.Controls.Add(Me.PictureBox3)
         Me.Panel17.Controls.Add(Me.CONV_WIDTH_ADJUST)
@@ -1209,10 +1210,12 @@ Partial Class Recipe
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Image = Global.Gui_Tset.My.Resources.Resources.icons8_rotate_right_64
         Me.PictureBox1.Location = New System.Drawing.Point(475, 484)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(97, 74)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 85
         Me.PictureBox1.TabStop = False
         '
@@ -1220,10 +1223,12 @@ Partial Class Recipe
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox3.Image = Global.Gui_Tset.My.Resources.Resources.icons8_rotate_left_64
         Me.PictureBox3.Location = New System.Drawing.Point(191, 484)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(97, 74)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox3.TabIndex = 84
         Me.PictureBox3.TabStop = False
         '
@@ -1318,7 +1323,9 @@ Partial Class Recipe
         'CONV_REV
         '
         Me.CONV_REV.BackColor = System.Drawing.Color.Transparent
+        Me.CONV_REV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CONV_REV.ForeColor = System.Drawing.Color.Transparent
+        Me.CONV_REV.Image = Global.Gui_Tset.My.Resources.Resources.icons8_up_arrow_602
         Me.CONV_REV.Location = New System.Drawing.Point(393, 299)
         Me.CONV_REV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CONV_REV.Name = "CONV_REV"
@@ -1330,6 +1337,7 @@ Partial Class Recipe
         '
         Me.CONV_FWD.BackColor = System.Drawing.Color.Transparent
         Me.CONV_FWD.ForeColor = System.Drawing.Color.Transparent
+        Me.CONV_FWD.Image = Global.Gui_Tset.My.Resources.Resources.icons8_up_arrow_603
         Me.CONV_FWD.Location = New System.Drawing.Point(393, 89)
         Me.CONV_FWD.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CONV_FWD.Name = "CONV_FWD"
@@ -1340,7 +1348,9 @@ Partial Class Recipe
         'X_POSI
         '
         Me.X_POSI.BackColor = System.Drawing.Color.Transparent
+        Me.X_POSI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.X_POSI.ForeColor = System.Drawing.Color.Transparent
+        Me.X_POSI.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_60__1_2
         Me.X_POSI.Location = New System.Drawing.Point(525, 212)
         Me.X_POSI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.X_POSI.Name = "X_POSI"
@@ -1351,7 +1361,9 @@ Partial Class Recipe
         'X_REV
         '
         Me.X_REV.BackColor = System.Drawing.Color.Transparent
+        Me.X_REV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.X_REV.ForeColor = System.Drawing.Color.Transparent
+        Me.X_REV.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_60__2_
         Me.X_REV.Location = New System.Drawing.Point(799, 212)
         Me.X_REV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.X_REV.Name = "X_REV"
@@ -1362,7 +1374,9 @@ Partial Class Recipe
         'Y_FWD
         '
         Me.Y_FWD.BackColor = System.Drawing.Color.Transparent
+        Me.Y_FWD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Y_FWD.ForeColor = System.Drawing.Color.Transparent
+        Me.Y_FWD.Image = Global.Gui_Tset.My.Resources.Resources.icons8_up_arrow_602
         Me.Y_FWD.Location = New System.Drawing.Point(685, 299)
         Me.Y_FWD.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Y_FWD.Name = "Y_FWD"
@@ -1373,7 +1387,9 @@ Partial Class Recipe
         'Y_REV
         '
         Me.Y_REV.BackColor = System.Drawing.Color.Transparent
+        Me.Y_REV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Y_REV.ForeColor = System.Drawing.Color.Transparent
+        Me.Y_REV.Image = Global.Gui_Tset.My.Resources.Resources.icons8_up_arrow_601
         Me.Y_REV.Location = New System.Drawing.Point(685, 89)
         Me.Y_REV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Y_REV.Name = "Y_REV"
@@ -1943,7 +1959,9 @@ Partial Class Recipe
         'CONV_REV_1
         '
         Me.CONV_REV_1.BackColor = System.Drawing.Color.Transparent
+        Me.CONV_REV_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CONV_REV_1.ForeColor = System.Drawing.Color.Transparent
+        Me.CONV_REV_1.Image = CType(resources.GetObject("CONV_REV_1.Image"), System.Drawing.Image)
         Me.CONV_REV_1.Location = New System.Drawing.Point(367, 224)
         Me.CONV_REV_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CONV_REV_1.Name = "CONV_REV_1"
@@ -1954,7 +1972,9 @@ Partial Class Recipe
         'CONV_FWD_1
         '
         Me.CONV_FWD_1.BackColor = System.Drawing.Color.Transparent
+        Me.CONV_FWD_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CONV_FWD_1.ForeColor = System.Drawing.Color.Transparent
+        Me.CONV_FWD_1.Image = CType(resources.GetObject("CONV_FWD_1.Image"), System.Drawing.Image)
         Me.CONV_FWD_1.Location = New System.Drawing.Point(367, 43)
         Me.CONV_FWD_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CONV_FWD_1.Name = "CONV_FWD_1"
@@ -2009,7 +2029,9 @@ Partial Class Recipe
         'X_FWD_1
         '
         Me.X_FWD_1.BackColor = System.Drawing.Color.Transparent
+        Me.X_FWD_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.X_FWD_1.ForeColor = System.Drawing.Color.Transparent
+        Me.X_FWD_1.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_60__1_2
         Me.X_FWD_1.Location = New System.Drawing.Point(7, 153)
         Me.X_FWD_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.X_FWD_1.Name = "X_FWD_1"
@@ -2020,7 +2042,9 @@ Partial Class Recipe
         'X_REV_1
         '
         Me.X_REV_1.BackColor = System.Drawing.Color.Transparent
+        Me.X_REV_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.X_REV_1.ForeColor = System.Drawing.Color.Transparent
+        Me.X_REV_1.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_601
         Me.X_REV_1.Location = New System.Drawing.Point(211, 153)
         Me.X_REV_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.X_REV_1.Name = "X_REV_1"
@@ -2031,7 +2055,9 @@ Partial Class Recipe
         'Y_FWD_1
         '
         Me.Y_FWD_1.BackColor = System.Drawing.Color.Transparent
+        Me.Y_FWD_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Y_FWD_1.ForeColor = System.Drawing.Color.Transparent
+        Me.Y_FWD_1.Image = CType(resources.GetObject("Y_FWD_1.Image"), System.Drawing.Image)
         Me.Y_FWD_1.Location = New System.Drawing.Point(127, 224)
         Me.Y_FWD_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Y_FWD_1.Name = "Y_FWD_1"
@@ -2042,7 +2068,9 @@ Partial Class Recipe
         'Y_REV_1
         '
         Me.Y_REV_1.BackColor = System.Drawing.Color.Transparent
+        Me.Y_REV_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Y_REV_1.ForeColor = System.Drawing.Color.Transparent
+        Me.Y_REV_1.Image = CType(resources.GetObject("Y_REV_1.Image"), System.Drawing.Image)
         Me.Y_REV_1.Location = New System.Drawing.Point(127, 43)
         Me.Y_REV_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Y_REV_1.Name = "Y_REV_1"
@@ -2936,7 +2964,9 @@ Partial Class Recipe
         'Button50
         '
         Me.Button50.BackColor = System.Drawing.Color.Transparent
+        Me.Button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button50.ForeColor = System.Drawing.Color.Transparent
+        Me.Button50.Image = CType(resources.GetObject("Button50.Image"), System.Drawing.Image)
         Me.Button50.Location = New System.Drawing.Point(444, 148)
         Me.Button50.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button50.Name = "Button50"
@@ -2995,7 +3025,9 @@ Partial Class Recipe
         'Button49
         '
         Me.Button49.BackColor = System.Drawing.Color.Transparent
+        Me.Button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button49.ForeColor = System.Drawing.Color.Transparent
+        Me.Button49.Image = CType(resources.GetObject("Button49.Image"), System.Drawing.Image)
         Me.Button49.Location = New System.Drawing.Point(444, 34)
         Me.Button49.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button49.Name = "Button49"
@@ -3047,7 +3079,9 @@ Partial Class Recipe
         'Button47
         '
         Me.Button47.BackColor = System.Drawing.Color.Transparent
+        Me.Button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button47.ForeColor = System.Drawing.Color.Transparent
+        Me.Button47.Image = CType(resources.GetObject("Button47.Image"), System.Drawing.Image)
         Me.Button47.Location = New System.Drawing.Point(181, 148)
         Me.Button47.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button47.Name = "Button47"
@@ -3058,7 +3092,9 @@ Partial Class Recipe
         'Button48
         '
         Me.Button48.BackColor = System.Drawing.Color.Transparent
+        Me.Button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button48.ForeColor = System.Drawing.Color.Transparent
+        Me.Button48.Image = CType(resources.GetObject("Button48.Image"), System.Drawing.Image)
         Me.Button48.Location = New System.Drawing.Point(181, 34)
         Me.Button48.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button48.Name = "Button48"
@@ -3069,7 +3105,9 @@ Partial Class Recipe
         'Button45
         '
         Me.Button45.BackColor = System.Drawing.Color.Transparent
+        Me.Button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button45.ForeColor = System.Drawing.Color.Transparent
+        Me.Button45.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_60__1_
         Me.Button45.Location = New System.Drawing.Point(59, 119)
         Me.Button45.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button45.Name = "Button45"
@@ -3080,7 +3118,9 @@ Partial Class Recipe
         'Button46
         '
         Me.Button46.BackColor = System.Drawing.Color.Transparent
+        Me.Button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button46.ForeColor = System.Drawing.Color.Transparent
+        Me.Button46.Image = Global.Gui_Tset.My.Resources.Resources.icons8_arrow_60
         Me.Button46.Location = New System.Drawing.Point(263, 119)
         Me.Button46.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button46.Name = "Button46"
