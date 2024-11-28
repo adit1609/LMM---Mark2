@@ -39,6 +39,7 @@ Imports ComboBox = System.Windows.Forms.ComboBox
 Imports TextBox = System.Windows.Forms.TextBox
 Imports MvCamCtrl.NET.CameraParams
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+Imports System.ComponentModel.Design.ObjectSelectorEditor
 
 
 
@@ -166,7 +167,10 @@ Public Class Recipe
         plc.Open()
         Timer1.Start()
         TabControl1.DrawMode = TabDrawMode.OwnerDrawFixed
-        AddHandler TabControl1.DrawItem, AddressOf TabControl1_DrawItem
+
+        ' TabControl1.SizeMode = TabSizeMode.Fixed
+        'TabControl1.ItemSize = New Size(10, 40)
+        'AddHandler TabControl1.DrawItem, AddressOf TabControl1_DrawItem
     End Function
     Private Sub Recipe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -1157,12 +1161,12 @@ Public Class Recipe
 
                     Dim BBT As String = FIDUCIAL.ChildNodes(0).InnerText
                     If BBT = "1" Then
-                            CheckBox1.Checked = True
-                        Else
-                            CheckBox1.Checked = False
+                        CheckBox1.Checked = True
+                    Else
+                        CheckBox1.Checked = False
 
 
-                        End If
+                    End If
 
 
                     Dim MARKPOSITION As XmlNode = xmDocument.SelectSingleNode("JOBList/JOB/TAGTYPE/RECEIPE/FIDUCIAL")
@@ -1405,12 +1409,12 @@ Public Class Recipe
 
             Dim BBT As String = FIDUCIAL.ChildNodes(0).InnerText
             If BBT = "1" Then
-                    CheckBox1.Checked = True
-                Else
-                    CheckBox1.Checked = False
+                CheckBox1.Checked = True
+            Else
+                CheckBox1.Checked = False
 
 
-                End If
+            End If
 
 
 
@@ -4117,7 +4121,8 @@ Public Class Recipe
     Private Sub RadioButton4_CheckedChanged(sender As Object, e As EventArgs)
         ''If FID_1.Checked Then
         plc.SetDevice("M246", 1)
-            plc.SetDevice("M247", 0)
+        plc.SetDevice("M247", 0)
+
         '' Else
         ''plc.SetDevice("M246", 0)
         '''End If
@@ -4541,27 +4546,27 @@ Public Class Recipe
         plc.SetDevice("M253", 0)
     End Sub
 
-    Private Sub Y_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles Button47.MouseDown, Y_FWD_1.MouseDown, Y_FWD.MouseDown
+    Private Sub Y_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles Y_FWD_1.MouseDown, Y_FWD.MouseDown, Button47.MouseDown
         plc.SetDevice("M201", 1)
     End Sub
 
-    Private Sub Y_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles Button47.MouseUp, Y_FWD_1.MouseUp, Y_FWD.MouseUp
+    Private Sub Y_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles Y_FWD_1.MouseUp, Y_FWD.MouseUp, Button47.MouseUp
         plc.SetDevice("M201", 0)
     End Sub
 
-    Private Sub Y_FWD_MouseDown(sender As Object, e As MouseEventArgs) Handles Button48.MouseDown, Y_REV_1.MouseDown, Y_REV.MouseDown
+    Private Sub Y_FWD_MouseDown(sender As Object, e As MouseEventArgs) Handles Y_REV_1.MouseDown, Y_REV.MouseDown, Button48.MouseDown
         plc.SetDevice("M200", 1)
     End Sub
 
-    Private Sub Y_FWD_MouseUp(sender As Object, e As MouseEventArgs) Handles Button48.MouseUp, Y_REV_1.MouseUp, Y_REV.MouseUp
+    Private Sub Y_FWD_MouseUp(sender As Object, e As MouseEventArgs) Handles Y_REV_1.MouseUp, Y_REV.MouseUp, Button48.MouseUp
         plc.SetDevice("M200", 0)
     End Sub
 
-    Private Sub X_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles X_REV.MouseDown, X_REV_1.MouseDown, Button46.MouseDown
+    Private Sub X_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles X_REV_1.MouseDown, X_REV.MouseDown, Button46.MouseDown
         plc.SetDevice("M206", 1)
     End Sub
 
-    Private Sub X_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles X_REV.MouseUp, X_REV_1.MouseUp, Button46.MouseUp
+    Private Sub X_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles X_REV_1.MouseUp, X_REV.MouseUp, Button46.MouseUp
         plc.SetDevice("M206", 0)
     End Sub
 
@@ -4573,19 +4578,19 @@ Public Class Recipe
         plc.SetDevice("M205", 0)
     End Sub
 
-    Private Sub CONV_FWD_MouseDown(sender As Object, e As MouseEventArgs) Handles CONV_FWD.MouseDown, CONV_FWD_1.MouseDown, Button49.MouseDown
+    Private Sub CONV_FWD_MouseDown(sender As Object, e As MouseEventArgs) Handles CONV_FWD_1.MouseDown, CONV_FWD.MouseDown, Button49.MouseDown
         plc.SetDevice("M250", 1)
     End Sub
 
-    Private Sub CONV_FWD_MouseUp(sender As Object, e As MouseEventArgs) Handles CONV_FWD.MouseUp, CONV_FWD_1.MouseUp, Button49.MouseUp
+    Private Sub CONV_FWD_MouseUp(sender As Object, e As MouseEventArgs) Handles CONV_FWD_1.MouseUp, CONV_FWD.MouseUp, Button49.MouseUp
         plc.SetDevice("M250", 0)
     End Sub
 
-    Private Sub CONV_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles CONV_REV.MouseDown, CONV_REV_1.MouseDown, Button50.MouseDown
+    Private Sub CONV_REV_MouseDown(sender As Object, e As MouseEventArgs) Handles CONV_REV_1.MouseDown, CONV_REV.MouseDown, Button50.MouseDown
         plc.SetDevice("M249", 1)
     End Sub
 
-    Private Sub CONV_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles CONV_REV.MouseUp, CONV_REV_1.MouseUp, Button50.MouseUp
+    Private Sub CONV_REV_MouseUp(sender As Object, e As MouseEventArgs) Handles CONV_REV_1.MouseUp, CONV_REV.MouseUp, Button50.MouseUp
         plc.SetDevice("M249", 0)
     End Sub
 
@@ -4745,8 +4750,8 @@ Public Class Recipe
         Dim laserpower As String = RichTextBox16.Text
         Dim scanspeed As String = RichTextBox17.Text
 
-
-
+        RichTextBox7.Text = X_Current2.Text
+        RichTextBox6.Text = Y_Current2.Text
 
         ' Search for the SIDE node (FRONT or BACK)
         Dim sideNode As TreeNode = Nothing
@@ -4779,7 +4784,7 @@ Public Class Recipe
 
         ' Expand the side node to show the newly added data
         positionNode.ExpandAll()
-
+        sideNode.ExpandAll()
     End Sub
 
 
@@ -5100,8 +5105,8 @@ Public Class Recipe
                 Dim yValue As String = match.Groups(3).Value ' Y coordinate
 
                 ' Display or use the extracted values
-                X_Current2.Text = xValue
-                Y_Current2.Text = yValue
+                RichTextBox7.Text = xValue
+                RichTextBox6.Text = yValue
 
 
 
@@ -5129,8 +5134,8 @@ Public Class Recipe
                 Dim yValue As String = match.Groups(3).Value ' Y coordinate
 
                 ' Display or use the extracted values
-                X_Current2.Text = xValue
-                Y_Current2.Text = yValue
+                RichTextBox7.Text = xValue
+                RichTextBox6.Text = yValue
                 If selectedNode1 IsNot Nothing AndAlso selectedNode1.Tag IsNot Nothing Then
                     Dim tagData = selectedNode1.Tag
 
@@ -5468,7 +5473,7 @@ Public Class Recipe
 
 
 
-    Private Sub Button44_Click(sender As Object, e As EventArgs) Handles Button44.Click, LED_LIGHT_ON.Click
+    Private Sub Button44_Click(sender As Object, e As EventArgs) Handles LED_LIGHT_ON.Click, Button44.Click
         If LED = 0 Then
             plc.SetDevice("M247", 1)
             LED = 1
@@ -5488,60 +5493,7 @@ Public Class Recipe
         End If
     End Sub
 
-    Private Sub Button45_MouseDown(sender As Object, e As MouseEventArgs)
 
-    End Sub
-
-    Private Sub Button45_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button46_MouseDown(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button46_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button48_MouseDown(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button48_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button47_MouseDown(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button47_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button49_MouseDown(sender As Object, e As MouseEventArgs)
-
-    End Sub
-    Private Sub Button49_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button50_MouseDown(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub Button50_MouseUp(sender As Object, e As MouseEventArgs)
-
-    End Sub
-
-    Private Sub EDIT_FID_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub FLIP_ON_Click(sender As Object, e As EventArgs) Handles FLIP_ON.Click
-
-    End Sub
     Private Sub SendFloatValues(valueStr As String, address1 As String, address2 As String)
         Dim floatValue As Single
         If Single.TryParse(valueStr, floatValue) Then
@@ -5597,24 +5549,122 @@ Public Class Recipe
     End Sub
 
     Private Sub TabControl1_DrawItem(sender As Object, e As DrawItemEventArgs) Handles TabControl1.DrawItem
-        Dim g As Graphics = e.Graphics
-        Dim textBrush As Brush
-        Dim tabPage As TabPage = TabControl1.TabPages(e.Index)
-        Dim tabBounds As Rectangle = TabControl1.GetTabRect(e.Index)
+        Dim tabControl As TabControl = DirectCast(sender, TabControl)
 
-        If e.State = DrawItemState.Selected Then
-            textBrush = New SolidBrush(Color.Red)
-            g.FillRectangle(Brushes.Gray, e.Bounds)
-        Else
-            textBrush = New SolidBrush(e.ForeColor)
-            e.DrawBackground()
-        End If
+        ' Define colors
+        Dim selectedTabColor As Color = Color.LightBlue ' Background for selected tab
+        Dim nonSelectedTabColor As Color = Color.LightGray ' Background for non-selected tabs
+        Dim textColor As Color = Color.Black
 
-        Dim tabFont As New Font("Arial", 10.0F, GraphicsUnit.Pixel)
-        Dim stringFlags As New StringFormat()
-        stringFlags.Alignment = StringAlignment.Center
-        stringFlags.LineAlignment = StringAlignment.Center
-        g.DrawString(tabPage.Text, tabFont, textBrush, tabBounds, stringFlags)
+        ' Determine the background color for the tab
+        Dim bgColor As Color = If(e.Index = tabControl.SelectedIndex, selectedTabColor, nonSelectedTabColor)
+
+        ' Fill the background of the tab
+        Using backgroundBrush As New SolidBrush(bgColor)
+            e.Graphics.FillRectangle(backgroundBrush, e.Bounds)
+        End Using
+
+        ' Draw tab text
+        Dim textBounds As Rectangle = e.Bounds
+        Dim textFormat As New StringFormat With {
+            .Alignment = StringAlignment.Center,
+            .LineAlignment = StringAlignment.Center
+        }
+        e.Graphics.DrawString(tabControl.TabPages(e.Index).Text, e.Font, New SolidBrush(textColor), textBounds, textFormat)
+    End Sub
+
+    Private Sub Recipe_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+        Close_Exe.Main()
+    End Sub
+
+    Private Sub Recipe_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+        Close_Exe.Main()
+    End Sub
+
+    Private Sub RichTextBox7_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox7.TextChanged
+        Dim selectedNode As TreeNode = TreeView1.SelectedNode
+
+        ' Text for the new or updated child node
+        Dim newCodeText As String = RichTextBox7.Text
+
+        Dim input As String = TreeView1.SelectedNode.Text
+        Dim newXValue As Double = Convert.ToDouble(RichTextBox7.Text)
+
+        ' Use Regex to find and replace the X value
+        Dim pattern As String = "(X:)(-?\d+\.\d+)" ' Pattern to match "X:" followed by a number
+        Dim result As String = Regex.Replace(input, pattern, $"${{1}}{newXValue}")
+
+
+
+        TreeView1.SelectedNode.Text = result
+
+
+
+
+        ' Expand the parent node to show the newly added/updated child node
+        selectedNode.Expand()
+    End Sub
+
+    Private Sub RichTextBox6_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox6.TextChanged
+        Dim selectedNode As TreeNode = TreeView1.SelectedNode
+
+        ' Text for the new or updated child node
+        Dim newCodeText As String = RichTextBox6.Text
+
+        Dim input As String = TreeView1.SelectedNode.Text
+        Dim newXValue As Double = Convert.ToDouble(RichTextBox6.Text)
+
+        ' Use Regex to find and replace the X value
+        Dim pattern As String = "(Y:)(-?\d+\.\d+)" ' Pattern to match "X:" followed by a number
+        Dim result As String = Regex.Replace(input, pattern, $"${{1}}{newXValue}")
+
+
+
+        TreeView1.SelectedNode.Text = result
+
+
+
+
+        ' Expand the parent node to show the newly added/updated child node
+        selectedNode.Expand()
+    End Sub
+
+
+
+    Private Sub TabControl1_SystemColorsChanged_1(sender As Object, e As EventArgs) Handles TabControl1.SystemColorsChanged
+
+        'Dim tabControl As TabControl = DirectCast(sender, TabControl)
+
+        '' Define colors
+        'Dim selectedTabColor As Color = Color.LightBlue ' Background for selected tab
+        'Dim nonSelectedTabColor As Color = Color.LightGray ' Background for non-selected tabs
+        'Dim textColor As Color = Color.Black
+
+        '' Determine the background color for the tab
+        'Dim bgColor As Color = If(e.Index = tabControl.SelectedIndex, selectedTabColor, nonSelectedTabColor)
+
+        '' Fill the background of the tab
+        'Using backgroundBrush As New SolidBrush(bgColor)
+        '    e.Graphics.FillRectangle(backgroundBrush, e.Bounds)
+        'End Using
+
+        '' Draw tab text
+        'Dim textBounds As Rectangle = e.Bounds
+        'Dim textFormat As New StringFormat With {
+        '    .Alignment = StringAlignment.Center,
+        '    .LineAlignment = StringAlignment.Center
+        '}
+        'e.Graphics.DrawString(tabControl.TabPages(e.Index).Text, e.Font, New SolidBrush(textColor), textBounds, textFormat)
     End Sub
 End Class
 

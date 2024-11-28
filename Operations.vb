@@ -933,7 +933,12 @@ Public Class Operations
 
 
     Private Sub Operations_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
-
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+        Close_Exe.Main()
 
         Timer2.Stop()
         Timer3.Stop()
@@ -2161,6 +2166,16 @@ Public Class Operations
             MySettings.Default.fiducial = False
             MySettings.Default.Save()
         End If
+    End Sub
+
+    Private Sub Operations_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+
+        Close_Exe.Main()
     End Sub
 
 

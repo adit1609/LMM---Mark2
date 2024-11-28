@@ -228,6 +228,7 @@ Partial Class userlogin2
         'Label3
         '
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(191, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(249, 42)
@@ -264,6 +265,7 @@ Partial Class userlogin2
         'Label2
         '
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(3, 3)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(193, 40)
@@ -307,6 +309,7 @@ Partial Class userlogin2
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(287, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(173, 36)
@@ -318,6 +321,7 @@ Partial Class userlogin2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(102, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(772, 1061)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "userlogin2"

@@ -1238,4 +1238,22 @@ Public Class IO
     Private Sub Panel58_Paint(sender As Object, e As PaintEventArgs) Handles Panel58.Paint
 
     End Sub
+
+    Private Sub IO_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+        Close_Exe.Main()
+    End Sub
+
+    Private Sub IO_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Home_Page.FidCam1.CloseDevice()
+        Home_Page.FidCam1.DestroyDevice()
+        Home_Page.LiveCamera1.CloseDevice()
+        Home_Page.LiveCamera1.DestroyDevice()
+        plc.SetDevice("M247", 0)
+        Close_Exe.Main()
+    End Sub
 End Class

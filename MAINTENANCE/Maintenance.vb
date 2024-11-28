@@ -18,12 +18,12 @@ Public Class Maintenance
 
     End Sub
     Private Sub Maintenance_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Home_Page(New IO)
+        Home_Page(New Input_Output)
 
     End Sub
 
     Private Sub btIO_Click(sender As Object, e As EventArgs) Handles btIO.Click
-        Home_Page(New IO)
+        Home_Page(New Input_Output)
 
 
     End Sub

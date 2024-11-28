@@ -170,6 +170,7 @@ Partial Class Operations
         Me.Button11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Button11.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Black
         Me.Button11.Location = New System.Drawing.Point(465, 92)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(140, 50)
@@ -182,6 +183,7 @@ Partial Class Operations
         Me.bt_Pcbstopper.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Pcbstopper.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Pcbstopper.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Pcbstopper.ForeColor = System.Drawing.Color.Black
         Me.bt_Pcbstopper.Location = New System.Drawing.Point(465, 19)
         Me.bt_Pcbstopper.Name = "bt_Pcbstopper"
         Me.bt_Pcbstopper.Size = New System.Drawing.Size(140, 50)
@@ -194,6 +196,7 @@ Partial Class Operations
         Me.bt_Pcbunclamp.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Pcbunclamp.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Pcbunclamp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Pcbunclamp.ForeColor = System.Drawing.Color.Black
         Me.bt_Pcbunclamp.Location = New System.Drawing.Point(617, 92)
         Me.bt_Pcbunclamp.Margin = New System.Windows.Forms.Padding(2)
         Me.bt_Pcbunclamp.Name = "bt_Pcbunclamp"
@@ -207,6 +210,7 @@ Partial Class Operations
         Me.Button13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Button13.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.ForeColor = System.Drawing.Color.Black
         Me.Button13.Location = New System.Drawing.Point(617, 19)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(140, 50)
@@ -219,6 +223,7 @@ Partial Class Operations
         Me.bt_Pcbclamp.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Pcbclamp.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Pcbclamp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Pcbclamp.ForeColor = System.Drawing.Color.Black
         Me.bt_Pcbclamp.Location = New System.Drawing.Point(313, 92)
         Me.bt_Pcbclamp.Margin = New System.Windows.Forms.Padding(2)
         Me.bt_Pcbclamp.Name = "bt_Pcbclamp"
@@ -232,6 +237,7 @@ Partial Class Operations
         Me.bt_Gateopenl.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Gateopenl.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Gateopenl.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Gateopenl.ForeColor = System.Drawing.Color.Black
         Me.bt_Gateopenl.Location = New System.Drawing.Point(9, 19)
         Me.bt_Gateopenl.Margin = New System.Windows.Forms.Padding(2)
         Me.bt_Gateopenl.Name = "bt_Gateopenl"
@@ -245,6 +251,7 @@ Partial Class Operations
         Me.bt_Pcbunload.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Pcbunload.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Pcbunload.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Pcbunload.ForeColor = System.Drawing.Color.Black
         Me.bt_Pcbunload.Location = New System.Drawing.Point(161, 92)
         Me.bt_Pcbunload.Name = "bt_Pcbunload"
         Me.bt_Pcbunload.Size = New System.Drawing.Size(140, 50)
@@ -257,6 +264,7 @@ Partial Class Operations
         Me.bt_Pcbload.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Pcbload.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Pcbload.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Pcbload.ForeColor = System.Drawing.Color.Black
         Me.bt_Pcbload.Location = New System.Drawing.Point(161, 19)
         Me.bt_Pcbload.Name = "bt_Pcbload"
         Me.bt_Pcbload.Size = New System.Drawing.Size(140, 50)
@@ -269,6 +277,7 @@ Partial Class Operations
         Me.bt_Gateopenr.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.bt_Gateopenr.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.bt_Gateopenr.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bt_Gateopenr.ForeColor = System.Drawing.Color.Black
         Me.bt_Gateopenr.Location = New System.Drawing.Point(9, 92)
         Me.bt_Gateopenr.Name = "bt_Gateopenr"
         Me.bt_Gateopenr.Size = New System.Drawing.Size(140, 50)
@@ -281,6 +290,7 @@ Partial Class Operations
         Me.Button3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.Location = New System.Drawing.Point(313, 19)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
@@ -309,7 +319,7 @@ Partial Class Operations
         '
         'PictureBox3
         '
-        Me.PictureBox3.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
@@ -330,6 +340,7 @@ Partial Class Operations
         '
         'DataGridView1
         '
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.SHIFT, Me.Column1, Me.Column2})
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -387,6 +398,7 @@ Partial Class Operations
         '
         Me.btStart.Dock = System.Windows.Forms.DockStyle.Right
         Me.btStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btStart.ForeColor = System.Drawing.Color.Black
         Me.btStart.Location = New System.Drawing.Point(263, 0)
         Me.btStart.Margin = New System.Windows.Forms.Padding(2)
         Me.btStart.Name = "btStart"
@@ -399,6 +411,7 @@ Partial Class Operations
         '
         Me.btStop.Dock = System.Windows.Forms.DockStyle.Left
         Me.btStop.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btStop.ForeColor = System.Drawing.Color.Black
         Me.btStop.Location = New System.Drawing.Point(0, 0)
         Me.btStop.Margin = New System.Windows.Forms.Padding(2)
         Me.btStop.Name = "btStop"
@@ -410,6 +423,7 @@ Partial Class Operations
         'btPass
         '
         Me.btPass.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btPass.ForeColor = System.Drawing.Color.Black
         Me.btPass.Location = New System.Drawing.Point(130, 0)
         Me.btPass.Margin = New System.Windows.Forms.Padding(2)
         Me.btPass.Name = "btPass"
@@ -456,6 +470,7 @@ Partial Class Operations
         'RichTextBox13
         '
         Me.RichTextBox13.Enabled = False
+        Me.RichTextBox13.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox13.Location = New System.Drawing.Point(99, 162)
         Me.RichTextBox13.Name = "RichTextBox13"
         Me.RichTextBox13.Size = New System.Drawing.Size(96, 34)
@@ -464,6 +479,8 @@ Partial Class Operations
         '
         'Button6
         '
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.Black
         Me.Button6.Location = New System.Drawing.Point(203, 164)
         Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
@@ -486,6 +503,7 @@ Partial Class Operations
         'RichTextBox12
         '
         Me.RichTextBox12.Enabled = False
+        Me.RichTextBox12.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox12.Location = New System.Drawing.Point(99, 109)
         Me.RichTextBox12.Name = "RichTextBox12"
         Me.RichTextBox12.Size = New System.Drawing.Size(96, 34)
@@ -494,6 +512,8 @@ Partial Class Operations
         '
         'Button5
         '
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.Location = New System.Drawing.Point(203, 111)
         Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
@@ -529,6 +549,8 @@ Partial Class Operations
         '
         'Button8
         '
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Black
         Me.Button8.Location = New System.Drawing.Point(214, 50)
         Me.Button8.Margin = New System.Windows.Forms.Padding(2)
         Me.Button8.Name = "Button8"
@@ -539,6 +561,8 @@ Partial Class Operations
         '
         'Button7
         '
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.Black
         Me.Button7.Location = New System.Drawing.Point(214, 12)
         Me.Button7.Margin = New System.Windows.Forms.Padding(2)
         Me.Button7.Name = "Button7"
@@ -561,6 +585,7 @@ Partial Class Operations
         'RichTextBox7
         '
         Me.RichTextBox7.Enabled = False
+        Me.RichTextBox7.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox7.Location = New System.Drawing.Point(123, 51)
         Me.RichTextBox7.Name = "RichTextBox7"
         Me.RichTextBox7.Size = New System.Drawing.Size(88, 33)
@@ -581,6 +606,7 @@ Partial Class Operations
         'RichTextBox5
         '
         Me.RichTextBox5.Enabled = False
+        Me.RichTextBox5.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox5.Location = New System.Drawing.Point(123, 12)
         Me.RichTextBox5.Name = "RichTextBox5"
         Me.RichTextBox5.Size = New System.Drawing.Size(88, 32)
@@ -590,6 +616,7 @@ Partial Class Operations
         'RichTextBox2
         '
         Me.RichTextBox2.Enabled = False
+        Me.RichTextBox2.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox2.Location = New System.Drawing.Point(9, 31)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(271, 38)
@@ -630,6 +657,7 @@ Partial Class Operations
         'RichTextBox4
         '
         Me.RichTextBox4.Enabled = False
+        Me.RichTextBox4.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox4.Location = New System.Drawing.Point(4, 27)
         Me.RichTextBox4.Name = "RichTextBox4"
         Me.RichTextBox4.Size = New System.Drawing.Size(244, 38)
@@ -665,6 +693,7 @@ Partial Class Operations
         Me.FIDUCIAL.Controls.Add(Me.RichTextBox16)
         Me.FIDUCIAL.Controls.Add(Me.RichTextBox14)
         Me.FIDUCIAL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FIDUCIAL.ForeColor = System.Drawing.Color.White
         Me.FIDUCIAL.Location = New System.Drawing.Point(3, 4)
         Me.FIDUCIAL.Name = "FIDUCIAL"
         Me.FIDUCIAL.Size = New System.Drawing.Size(250, 68)
@@ -697,6 +726,7 @@ Partial Class Operations
         'RichTextBox16
         '
         Me.RichTextBox16.Enabled = False
+        Me.RichTextBox16.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox16.Location = New System.Drawing.Point(132, 35)
         Me.RichTextBox16.Name = "RichTextBox16"
         Me.RichTextBox16.Size = New System.Drawing.Size(96, 27)
@@ -706,6 +736,7 @@ Partial Class Operations
         'RichTextBox14
         '
         Me.RichTextBox14.Enabled = False
+        Me.RichTextBox14.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox14.Location = New System.Drawing.Point(21, 35)
         Me.RichTextBox14.Name = "RichTextBox14"
         Me.RichTextBox14.Size = New System.Drawing.Size(96, 27)
@@ -733,6 +764,7 @@ Partial Class Operations
         'RichTextBox11
         '
         Me.RichTextBox11.Enabled = False
+        Me.RichTextBox11.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox11.Location = New System.Drawing.Point(119, 138)
         Me.RichTextBox11.Name = "RichTextBox11"
         Me.RichTextBox11.Size = New System.Drawing.Size(82, 34)
@@ -752,6 +784,8 @@ Partial Class Operations
         '
         'Button4
         '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.Location = New System.Drawing.Point(206, 99)
         Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
@@ -762,6 +796,8 @@ Partial Class Operations
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Location = New System.Drawing.Point(206, 60)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
@@ -773,6 +809,7 @@ Partial Class Operations
         'RichTextBox8
         '
         Me.RichTextBox8.Enabled = False
+        Me.RichTextBox8.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox8.Location = New System.Drawing.Point(119, 98)
         Me.RichTextBox8.Name = "RichTextBox8"
         Me.RichTextBox8.Size = New System.Drawing.Size(82, 34)
@@ -793,6 +830,7 @@ Partial Class Operations
         'RichTextBox6
         '
         Me.RichTextBox6.Enabled = False
+        Me.RichTextBox6.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox6.Location = New System.Drawing.Point(119, 58)
         Me.RichTextBox6.Name = "RichTextBox6"
         Me.RichTextBox6.Size = New System.Drawing.Size(82, 34)
@@ -813,6 +851,7 @@ Partial Class Operations
         'RichTextBox3
         '
         Me.RichTextBox3.Enabled = False
+        Me.RichTextBox3.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox3.Location = New System.Drawing.Point(119, 18)
         Me.RichTextBox3.Name = "RichTextBox3"
         Me.RichTextBox3.Size = New System.Drawing.Size(82, 34)
@@ -832,6 +871,8 @@ Partial Class Operations
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Location = New System.Drawing.Point(206, 19)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
@@ -1042,6 +1083,7 @@ Partial Class Operations
         'RichTextBox15
         '
         Me.RichTextBox15.Enabled = False
+        Me.RichTextBox15.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox15.Location = New System.Drawing.Point(546, 4)
         Me.RichTextBox15.Name = "RichTextBox15"
         Me.RichTextBox15.Size = New System.Drawing.Size(72, 44)
@@ -1083,6 +1125,7 @@ Partial Class Operations
         'RichTextBox9
         '
         Me.RichTextBox9.Enabled = False
+        Me.RichTextBox9.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox9.Location = New System.Drawing.Point(688, 4)
         Me.RichTextBox9.Name = "RichTextBox9"
         Me.RichTextBox9.Size = New System.Drawing.Size(72, 44)
@@ -1104,6 +1147,7 @@ Partial Class Operations
         'RichTextBox1
         '
         Me.RichTextBox1.Enabled = False
+        Me.RichTextBox1.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox1.Location = New System.Drawing.Point(206, 4)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(241, 44)
@@ -1136,8 +1180,10 @@ Partial Class Operations
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(102, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(767, 960)
         Me.Controls.Add(Me.Panel1)
+        Me.ForeColor = System.Drawing.Color.White
         Me.Name = "Operations"
         Me.Text = "Operations"
         Me.Panel1.ResumeLayout(False)

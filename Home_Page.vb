@@ -9,6 +9,8 @@ Imports ActUtlTypeLib
 Imports Gui_Tset.My
 Imports MvCamCtrl.NET
 Imports OfficeOpenXml
+Imports System.Windows.Forms
+Imports System.Diagnostics
 
 
 
@@ -20,7 +22,7 @@ Public Class Home_Page
     Private alarmForm As Alarms = Nothing
     Dim plc As New ActUtlType
     Dim check As Integer
-
+    Dim AppPath As String
     Dim previousAlarmValue As Integer = -1
     Dim serialNumber As Integer = 1
     Private alarmMessageBoxShown As Boolean = False
@@ -82,14 +84,18 @@ Public Class Home_Page
             Button2.BackColor = Color.Green
 
         End If
+        Dim part1 As String = Application.StartupPath
+        ''"D:\mark 2\Gui_Tset1\Gui_Tset\fiducial_inspection\net8.0-windows\WinFormsApp5.exe""D:\mark 2\Gui_Tset1\Gui_Tset\bin\Debug\fiducial_inspection\net8.0-windows\WinFormsApp5.exe"
+        Dim part2 As String = "fiducial_inspection\net8.0-windows\WinFormsApp5.exe"
+        AppPath = Path.Combine(part1, part2)
 
 
-
-
-
-
+        Module3.DisplayData(AppPath)
 
     End Sub
+
+
+
     Private Async Sub FidCamConnect()
         Await Task.Run(Sub()
                            ConnectFidCamera()
@@ -468,6 +474,7 @@ Public Class Home_Page
         LiveCamera1.CloseDevice()
         LiveCamera1.DestroyDevice()
         plc.SetDevice("M247", 0)
+        Close_Exe.Main()
     End Sub
 
     Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
@@ -653,6 +660,9 @@ Public Class Home_Page
 
     Private Sub Home_Page_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         btReturn.PerformClick()
+        FidCam1.CloseDevice()
+        FidCam1.DestroyDevice()
+        Close_Exe.Main()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

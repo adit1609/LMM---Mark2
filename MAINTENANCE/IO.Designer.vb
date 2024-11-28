@@ -3173,13 +3173,13 @@ Partial Class IO
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(772, 1194)
+        Me.Panel1.Size = New System.Drawing.Size(772, 1181)
         Me.Panel1.TabIndex = 2
         '
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(0, 1184)
+        Me.Panel4.Location = New System.Drawing.Point(0, 1171)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(772, 10)
@@ -3193,7 +3193,7 @@ Partial Class IO
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(0, 51)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(772, 1143)
+        Me.Panel3.Size = New System.Drawing.Size(772, 1130)
         Me.Panel3.TabIndex = 5
         '
         'TableLayoutPanel1
@@ -3594,7 +3594,7 @@ Partial Class IO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(772, 1194)
+        Me.ClientSize = New System.Drawing.Size(772, 1181)
         Me.Controls.Add(Me.Panel1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "IO"
